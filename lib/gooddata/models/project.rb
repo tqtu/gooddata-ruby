@@ -1675,6 +1675,7 @@ module GoodData
       @log_formatter.log_updated_users(updated_users_result, diff[:changed], role_list)
       results.concat(updated_users_result)
 
+
       unless options[:do_not_touch_users_that_are_not_mentioned]
         # Remove old users
         to_disable = diff[:removed].reject { |user| user[:status] == 'DISABLED' || user[:status] == :disabled }
@@ -1696,10 +1697,19 @@ module GoodData
       end
 
       # reassign to groups
+      users_empty_group = []
       mappings = new_users.map(&:to_hash).flat_map do |user|
         groups = user[:user_group] || []
+        users_empty_group << user[:login] if user[:user_group].nil? || user[:user_group].empty?
         groups.map { |g| [user[:login], g] }
       end
+
+      unless users_empty_group.empty?
+        options[:user_groups_cache].each do |g|
+          g.set_members(whitelist_users(g.members.map(&:to_hash), [], users_empty_group, :include).first.map { |x| x[:uri] })
+        end
+      end
+
       unless mappings.empty?
         users_lookup = users.reduce({}) do |a, e|
           a[e.login] = e
