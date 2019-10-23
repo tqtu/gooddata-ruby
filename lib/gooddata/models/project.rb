@@ -1673,7 +1673,8 @@ module GoodData
         end
       end
 
-      whitelisted_new_users, whitelisted_users = whitelist_users(new_users.map(&:to_hash), users_list, options[:whitelists])
+      # First check that if groups are provided we have them set up
+      user_groups_cache = check_groups(new_users.map(&:to_hash).flat_map { |u| u[:user_group] || [] }.uniq, options[:user_groups_cache], options)
 
       # conform the role on list of new users so we can diff them with the users coming from the project
       diffable_new_with_default_role = whitelisted_new_users.map do |u|
@@ -1820,20 +1821,7 @@ module GoodData
     def check_groups(specified_groups, user_groups_cache = nil, options = {})
       current_user_groups = user_groups if user_groups_cache.nil? || user_groups_cache.empty?
       groups = current_user_groups.map(&:name)
-      missing_groups = []
-      change_groups = {}
-      specified_groups.each do |group|
-        found_group = groups.find { |name| name.casecmp(group).zero? }
-        if found_group.nil?
-          missing_groups << group
-        else
-          # Change groups when they have similar group name with difference of case sensitivity
-          if found_group != group
-            change_groups[group] = found_group
-            GoodData.logger.warn("Group with name #{group} is existed in project with name #{found_group}.")
-          end
-        end
-      end
+      missing_groups = specified_groups - groups
       if options[:create_non_existing_user_groups]
         missing_groups.each do |g|
           GoodData.logger.info("Creating group #{g}")
@@ -1846,7 +1834,7 @@ module GoodData
             "#{groups.join(',')} and you asked for #{missing_groups.join(',')}"
         end
       end
-      [current_user_groups, change_groups]
+      current_user_groups
     end
 
     # Update user
