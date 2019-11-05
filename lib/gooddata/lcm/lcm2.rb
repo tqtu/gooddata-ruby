@@ -380,7 +380,7 @@ module GoodData
         if errors.any?
           error_message = JSON.pretty_generate(errors)
           if strict_mode
-            raise GoodData::LcmExecutionError.new(errors[0][:err], error_message)
+            fail(error_message)
           else
             GoodData.logger.error(error_message)
           end
