@@ -326,19 +326,41 @@ module GoodData
     # Gets the array of projects
     #
     # @return [Array<GoodData::Project>] Array of project where account settings belongs to
-    def projects(limit = nil)
+    def projects(limit = nil, offset = 0 )
       url = @json['accountSetting']['links']['projects']
-      query_params = ''
+
+      all_projects = []
+      if limit.nil?
+        url += "?limit=500"
+        raise ArgumentError.new('Expected limit is not null when offset is also not null') if offset > 0
+
+        loop do
+          projects = client.get url
+          projects['projects']['items'].each do |project|
+            all_projects << client.create(GoodData::Project, project)
+          end
+          if !projects['projects']['paging'].nil? && !projects['projects']['paging']['next'].nil?
+            url = projects['projects']['paging']['next']
+          else
+            break;
+          end
+        end
+      end
+
       if !limit.nil? && limit.is_a?(Integer) && limit > 0
         limit = [limit, 500].min
-        query_params += "limit=#{limit}"
+        url += "?limit=#{limit}"
+        url += "&offset=#{offset}" if offset > 0
+
+        projects = client.get url
+        projects['projects']['items'].each do |project|
+          all_projects << client.create(GoodData::Project, project)
+        end
       end
-      url += "?#{query_params}" unless query_params.empty?
-      projects = client.get url
-      projects['projects'].map do |project|
-        client.create(GoodData::Project, project)
-      end
+      all_projects
     end
+
+
 
     # Saves object if dirty, clears dirty flag
     def save!
