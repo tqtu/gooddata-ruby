@@ -78,7 +78,7 @@ begin
 
   log.info "action=#{brick_type}_execution status=start commit_hash=#{commit_hash} execution_id=#{execution_id}"
   brick_pipeline.call(params)
-  update_execution_result(execution_result_log_params, log, brick_type, ExecutionStatus::OK, '')
+  update_execution_result(execution_result_log_params, log, brick_type, ExecutionStatus::OK, '') unless params['EXECUTION_RESULT_COMPLETED']
 rescue GoodData::LcmExecutionError => lcm_error
 	handle_error(execution_result_log_params, log, brick_type, lcm_error, lcm_error.summary_error)
 rescue Exception => e # rubocop:disable RescueException
