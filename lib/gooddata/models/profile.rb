@@ -59,19 +59,19 @@ module GoodData
       # @option opts [GoodData::Rest::Client] :client Client used for communication with server
       # @return GoodData::Profile User Profile
       def [](id, opts = { client: GoodData.connection })
-        return id if id.instance_of?(GoodData::Profile) || id.respond_to?(:profile?) && id.profile?
-
-        if id.to_s !~ %r{^(\/gdc\/account\/profile\/)?[a-zA-Z\d]+$}
-          fail(ArgumentError, 'wrong type of argument. Should be either profile ID or path')
-        end
-
-        id = id.match(/[a-zA-Z\d]+$/)[0] if id =~ %r{/}
-
+        # return id if id.instance_of?(GoodData::Profile) || id.respond_to?(:profile?) && id.profile?
+        #
+        # if id.to_s !~ %r{^(\/gdc\/account\/profile\/)?[a-zA-Z\d]+$}
+        #   fail(ArgumentError, 'wrong type of argument. Should be either profile ID or path')
+        # end
+        #
+        # id = id.match(/[a-zA-Z\d]+$/)[0] if id =~ %r{/}
+        #
         # c = client(opts)
-        fail ArgumentError, 'No :client specified' if c.nil?
-
-        response = c.get(PROFILE_PATH % id)
-        c.factory.create(Profile, response)
+        # fail ArgumentError, 'No :client specified' if c.nil?
+        #
+        # response = c.get(PROFILE_PATH % id)
+        # c.factory.create(Profile, response)
       end
 
       # Creates new instance from hash with attributes
