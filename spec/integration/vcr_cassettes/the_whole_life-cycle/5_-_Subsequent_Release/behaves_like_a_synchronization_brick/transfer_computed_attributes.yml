@@ -764,4 +764,772 @@ http_interactions:
         computed attribute","category":"attribute","updated":"2019-04-18 14:58:31","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}}]}}'
     http_version: 
   recorded_at: Thu, 18 Apr 2019 13:00:19 GMT
-recorded_with: VCR 4.0.0
+- request:
+    method: get
+    uri: https://staging2-lcm-prod.intgdc.com/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.9/x86_64-darwin17/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":khvB9WRu3MGEpnzND4O8Vw:WQ0F0ab4iNTUhtASMHM_TA"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-prod.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 20 Jan 2020 05:07:02 GMT
+      Server:
+      - GoodData WebApp
+      Keep-Alive:
+      - timeout=5, max=100
+      X-Gdc-Log-Header:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      X-Gdc-Request-Time:
+      - '41'
+      X-Gdc-Request:
+      - ":khvB9WRu3MGEpnzND4O8Vw:WQ0F0ab4iNTUhtASMHM_TA:InIWWd8W31djEmYk"
+      Vary:
+      - Accept-Encoding,origin,X-GDC-VERSION
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"about":{"summary":"Metadata service for project ''xsz1uanbekkxjyc5i9i2sh85khwy8xn9''","category":"project","instance":"xsz1uanbekkxjyc5i9i2sh85khwy8xn9","links":[{"link":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/data","summary":"Resources
+        for data set manipulation.","category":"data","title":"data"},{"link":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/dml","summary":"Navigation
+        resource for physical data manipulation.","category":"dml","title":"dml"},{"link":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/drillcrosspaths","summary":"Returns
+        a list of attributes available for drilling across.","category":"drillcrosspaths","title":"drillcrosspaths"},{"link":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/etl","summary":"Resources
+        for data ETL.","category":"etl","title":"etl"},{"link":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/datedimension","summary":"Resources
+        for Date Dimension manipulation","category":"datedimension","title":"datedimension"},{"link":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/favorites","summary":"Returns
+        list of objects marked as favorites by the user.","category":"favorites","title":"favorites"},{"link":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/favorite","summary":"Resource
+        for determining if an object is in a user''s favorites.","category":"favorite","title":"favorite"},{"link":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/identifiers","summary":"Resource
+        for retrieving metadata object identifiers.","category":"instance-identifiers","title":"identifiers"},{"link":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/labels","summary":"Resource
+        for retrieving uris for element labels.","category":"labels","title":"labels"},{"link":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/ldm","summary":"Resources
+        for logical data model (LDM) manipulation.","category":"ldm","title":"ldm"},{"link":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/log","summary":"Returns
+        a list of metadata events.","category":"logs","title":"logs"},{"link":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/maintenance","summary":"Resource
+        for project maintenace.","category":"maintenance","title":"maintenance"},{"link":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/maqlvalidator","summary":"Resource
+        for MAQL construct validation and tree representation.","category":"maqlvalidator","title":"MaqlValidator"},{"link":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj","summary":"Resource
+        for creating new metadata objects.","category":"obj","title":"obj"},{"link":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/objects","summary":"Resource
+        for batch operations MD objects.","category":"objects","title":"objects"},{"link":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/query","summary":"Resources
+        for querying collections of metadata objects.","category":"query","title":"query"},{"link":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/reportstatistics","summary":"Returns
+        report statistics for a specified report.","category":"report-statistic","title":"report
+        statistics"},{"link":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/search","summary":"Resource
+        for full text search.","category":"search","title":"search"},{"link":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/service","summary":"Services
+        for metadata configuration.","category":"service","title":"service"},{"link":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/tags","summary":"Returns
+        a list of tags.","category":"tags","title":"tags"},{"link":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/tasks","summary":"Task
+        resource.","category":"tasks","title":"tasks"},{"link":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/templates","summary":"Returns
+        list of uris of templates from which the project was created.","category":"templates","title":"templates"},{"link":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/translations","summary":"Resource
+        for project localization.","category":"translations","title":"translations"},{"link":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/usedby2","summary":"Returns
+        list of objects connected to a certain object via a ''used'' edge.","category":"usedby2","title":"usedby"},{"link":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/using2","summary":"Returns
+        list of objects connected to a certain object via a ''using'' edge.","category":"using2","title":"using"},{"link":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/userfilters","summary":"Relation
+        userFilter - user management.","category":"userfilters","title":"userfilters"},{"link":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/validate","summary":"Resources
+        for LDM, PDM, IO validation.","category":"validate-project","title":"validateproject"},{"link":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/variables","summary":"Resources
+        for variable manipulation.","category":"vars","title":"variables"}]}}'
+    http_version: 
+  recorded_at: Mon, 20 Jan 2020 05:07:03 GMT
+- request:
+    method: get
+    uri: https://staging2-lcm-prod.intgdc.com/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/objects/query?category=attribute&limit=50&offset=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.9/x86_64-darwin17/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":khvB9WRu3MGEpnzND4O8Vw:m3cpywjAfrTPaDde2zIvOg"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-prod.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 20 Jan 2020 05:07:03 GMT
+      Server:
+      - GoodData WebApp
+      Keep-Alive:
+      - timeout=5, max=100
+      X-Gdc-Log-Header:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      X-Gdc-Request-Time:
+      - '330'
+      X-Gdc-Request:
+      - ":khvB9WRu3MGEpnzND4O8Vw:m3cpywjAfrTPaDde2zIvOg:KgOLNmOxhWtPWzSU"
+      Vary:
+      - Accept-Encoding,origin,X-GDC-VERSION
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"objects":{"paging":{"count":32,"offset":0},"items":[{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/138"}],"displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/222","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/139]","default":1},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/240/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/240","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aag81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Year.","isProduction":1,"title":"Year (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:01:41","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/272","sort":"pk","dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/119","type":"GDC.time.year","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/186"},{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/194"},{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/209"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/222","tags":"date
+        year","created":"2010-08-02 08:13:42","identifier":"effective_to_date.year","deprecated":"0","summary":"Year","isProduction":1,"title":"Year
+        (Effective To Date)","category":"attribute","updated":"2020-01-20 06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/140"}],"displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/223","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/141]","default":1},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/241/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/241","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aam81lMifn6q","deprecated":"0","summary":"DisplayForm
+        default.","isProduction":1,"title":"default (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/272","sort":"pk","dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/119","type":"GDC.time.quarter_in_year","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/187"},{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/193"},{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/208"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/223","tags":"date
+        quarter year","created":"2010-08-02 08:13:42","identifier":"effective_to_date.quarter.in.year","deprecated":"0","summary":"Generic
+        Quarter (Q1-Q4)","isProduction":1,"title":"Quarter (Effective To Date)","category":"attribute","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/142"}],"displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/224","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/147]","default":1},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/246/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/246","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aaA81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Week #/Year (W1/2010).","isProduction":1,"title":"Week #/Year (W1/2010) (Effective
+        To Date)","category":"attributeDisplayForm","updated":"2020-01-20 06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/224","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/145]","default":2},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/244/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/244","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aaw81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Week Starting.","isProduction":1,"title":"Week Starting (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/224","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/144]","default":3},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/243/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/243","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aau81lMifn6q","deprecated":"0","summary":"DisplayForm
+        From - To.","isProduction":1,"title":"From - To (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/224","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/146]","default":5},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/245/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/245","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aay81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Week #/Year (Cont.).","isProduction":1,"title":"Week #/Year (Cont.) (Effective
+        To Date)","category":"attributeDisplayForm","updated":"2020-01-20 06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/224","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/148]","default":6},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/247/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/247","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aaC81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Wk/Qtr/Year (Cont.).","isProduction":1,"title":"Wk/Qtr/Year (Cont.) (Effective
+        To Date)","category":"attributeDisplayForm","updated":"2020-01-20 06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/224","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/143]","default":7},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/242/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/242","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aas81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Wk/Qtr/Year.","isProduction":1,"title":"Wk/Qtr/Year (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/278","sort":"pk","dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/119","type":"GDC.time.week_us","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/210"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/224","tags":"date
+        week","created":"2010-08-02 08:13:42","identifier":"effective_to_date.week","deprecated":"0","summary":"Week/Year
+        based on US Weeks (Sun-Sat). By default, if a week spans multiple years or
+        quarters (ie, end of the year/quarter), it is marked as first or last week
+        of the period according to particular standards (ie, US or EU). Labels marked
+        as \"Continuous\" show both weeks (W53/2009 - W1/2010).","isProduction":1,"title":"Week
+        (Sun-Sat)/Year (Effective To Date)","category":"attribute","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/149"}],"displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/225","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/150]","default":1},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/248/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/248","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aaI81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Number US.","isProduction":1,"title":"Number US (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/278","sort":"pk","dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/119","type":"GDC.time.week_in_year","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/212"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/225","tags":"date
+        week year","created":"2010-08-02 08:13:42","identifier":"effective_to_date.week.in.year","deprecated":"0","summary":"Generic
+        Week based on US Weeks (Sun-Sat)","isProduction":1,"title":"Week (Sun-Sat)
+        (Effective To Date)","category":"attribute","updated":"2020-01-20 06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/151"}],"displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/226","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/152]","default":1},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/249/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/249","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aaO81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Number US.","isProduction":1,"title":"Number US (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/278","sort":"pk","dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/119","type":"GDC.time.week_in_quarter","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/211"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/226","tags":"date
+        quarter week","created":"2010-08-02 08:13:42","identifier":"effective_to_date.week.in.quarter","deprecated":"0","summary":"Generic
+        Week of Quarter based on US Weeks (W1, ..., W14)","isProduction":1,"title":"Week
+        (Sun-Sat) of Qtr (Effective To Date)","category":"attribute","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/153"}],"displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/227","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/158]","default":1},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/254/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/254","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aa281lMifn6q","deprecated":"0","summary":"DisplayForm
+        Week #/Year (W1/2010).","isProduction":1,"title":"Week #/Year (W1/2010) (Effective
+        To Date)","category":"attributeDisplayForm","updated":"2020-01-20 06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/227","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/156]","default":2},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/252/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/252","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aaY81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Week Starting.","isProduction":1,"title":"Week Starting (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/227","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/155]","default":3},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/251/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/251","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aaW81lMifn6q","deprecated":"0","summary":"DisplayForm
+        From - To.","isProduction":1,"title":"From - To (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/278","sort":"pk","dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/119","type":"GDC.time.week","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/213"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/227","tags":"date
+        eu week","created":"2010-08-02 08:13:42","identifier":"effective_to_date.euweek","deprecated":"0","summary":"Week/Year
+        based on EU Weeks (Mon-Sun). By default, if a week spans multiple years or
+        quarters (ie, end of the year/quarter), it is marked as first or last week
+        of the period according to particular standards (ie, US or EU). Labels marked
+        as \"Continuous\" show both weeks (W53/2009 - W1/2010).","isProduction":1,"title":"Week
+        (Mon-Sun)/Year (Effective To Date)","category":"attribute","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/160"}],"displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/228","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/161]","default":1},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/256/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/256","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aba81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Number EU.","isProduction":1,"title":"Number EU (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/278","sort":"pk","dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/119","type":"GDC.time.euweek_in_year","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/215"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/228","tags":"date
+        eu week year","created":"2010-08-02 08:13:42","identifier":"effective_to_date.euweek.in.year","deprecated":"0","summary":"Generic
+        Week based on EU Weeks (Mon-Sun)","isProduction":1,"title":"Week (Mon-Sun)
+        (Effective To Date)","category":"attribute","updated":"2020-01-20 06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/162"}],"displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/229","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/163]","default":1},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/257/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/257","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.abg81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Number EU.","isProduction":1,"title":"Number EU (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/278","sort":"pk","dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/119","type":"GDC.time.euweek_in_quarter","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/214"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/229","tags":"date
+        eu quarter week","created":"2010-08-02 08:13:42","identifier":"effective_to_date.euweek.in.quarter","deprecated":"0","summary":"Generic
+        Week of Quarter based on EU Weeks (W1, ..., W14)","isProduction":1,"title":"Week
+        (Mon-Sun) of Qtr (Effective To Date)","category":"attribute","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/164"}],"displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/230","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/165]","default":1},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/258/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/258","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.abm81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Short (Jan).","isProduction":1,"title":"Short (Jan) (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/230","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/168]","default":2},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/261/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/261","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.abs81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Long (January).","isProduction":1,"title":"Long (January) (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/230","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/167]","default":3},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/260/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/260","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.abq81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Number (M1).","isProduction":1,"title":"Number (M1) (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/230","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/166]","default":4},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/259/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/259","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.abo81lMifn6q","deprecated":"0","summary":"DisplayForm
+        M/Q (M1/Q1).","isProduction":1,"title":"M/Q (M1/Q1) (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/273","sort":"pk","dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/119","type":"GDC.time.month_in_year","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/190"},{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/205"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/230","tags":"date
+        month year","created":"2010-08-02 08:13:42","identifier":"effective_to_date.month.in.year","deprecated":"0","summary":"Generic
+        Month","isProduction":1,"title":"Month (Effective To Date)","category":"attribute","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/169"}],"displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/231","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/170]","default":1},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/262/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/262","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aby81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Number.","isProduction":1,"title":"Number (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/273","sort":"pk","dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/119","type":"GDC.time.month_in_quarter","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/191"},{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/206"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/231","tags":"date
+        month quarter","created":"2010-08-02 08:13:42","identifier":"effective_to_date.month.in.quarter","deprecated":"0","summary":"Generic
+        month of quarter (M1, M2, M3)","isProduction":1,"title":"Month of Quarter
+        (Effective To Date)","category":"attribute","updated":"2020-01-20 06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/171"}],"displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/232","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/172]","default":1},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/263/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/263","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.abE81lMifn6q","deprecated":"0","summary":"DisplayForm
+        default.","isProduction":1,"title":"default (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/278","sort":"pk","dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/119","type":"GDC.time.day_in_year","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/203"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/232","tags":"date
+        day year","created":"2010-08-02 08:13:42","identifier":"effective_to_date.day.in.year","deprecated":"0","summary":"Generic
+        Day of the Year (D1, D2, ... , D365)","isProduction":1,"title":"Day of Year
+        (Effective To Date)","category":"attribute","updated":"2020-01-20 06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/173"}],"displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/233","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/174]","default":1},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/264/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/264","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.abK81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Short (Sun).","isProduction":1,"title":"Short (Sun) (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/233","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/176]","default":2},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/266/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/266","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.abO81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Long (Sunday).","isProduction":1,"title":"Long (Sunday) (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/233","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/175]","default":3},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/265/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/265","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.abM81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Number (1=Sunday).","isProduction":1,"title":"Number (1=Sunday) (Effective
+        To Date)","category":"attributeDisplayForm","updated":"2020-01-20 06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/278","sort":"pk","dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/119","type":"GDC.time.day_in_week","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/201"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/233","tags":"date
+        day week","created":"2010-08-02 08:13:42","identifier":"effective_to_date.day.in.week","deprecated":"0","summary":"Generic
+        Day of the Week based on US Week (Sun-Sat)","isProduction":1,"title":"Day
+        of Week (Sun-Sat) (Effective To Date)","category":"attribute","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/177"}],"displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/234","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/178]","default":1},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/267/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/267","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.abU81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Short (Mon).","isProduction":1,"title":"Short (Mon) (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/234","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/180]","default":2},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/269/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/269","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.abY81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Long (Monday).","isProduction":1,"title":"Long (Monday) (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/234","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/179]","default":3},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/268/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/268","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.abW81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Number (1=Monday).","isProduction":1,"title":"Number (1=Monday) (Effective
+        To Date)","category":"attributeDisplayForm","updated":"2020-01-20 06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/278","sort":"pk","dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/119","type":"GDC.time.day_in_euweek","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/202"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/234","tags":"date
+        day eu week","created":"2010-08-02 08:13:42","identifier":"effective_to_date.day.in.euweek","deprecated":"0","summary":"Generic
+        Day based on EU Week (Mon-Sun)","isProduction":1,"title":"Day of Week (Mon-Sun)
+        (Effective To Date)","category":"attribute","updated":"2020-01-20 06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/181"}],"displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/235","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/182]","default":1},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/270/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/270","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.ab481lMifn6q","deprecated":"0","summary":"DisplayForm
+        default.","isProduction":1,"title":"default (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/278","sort":"pk","dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/119","type":"GDC.time.day_in_quarter","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/200"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/235","tags":"date
+        day quarter","created":"2010-08-02 08:13:42","identifier":"effective_to_date.day.in.quarter","deprecated":"0","summary":"Generic
+        day of quarter (D1, D2, ... , D92)","isProduction":1,"title":"Day of Quarter
+        (Effective To Date)","category":"attribute","updated":"2020-01-20 06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/183"}],"displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/236","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/184]","default":1},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/271/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/271","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aca81lMifn6q","deprecated":"0","summary":"DisplayForm
+        default.","isProduction":1,"title":"default (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/278","sort":"pk","dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/119","type":"GDC.time.day_in_month","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/199"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/236","tags":"date
+        day month","created":"2010-08-02 08:13:42","identifier":"effective_to_date.day.in.month","deprecated":"0","summary":"Generic
+        day of month (D1, D2, ... , D31)","isProduction":1,"title":"Day of Month (Effective
+        To Date)","category":"attribute","updated":"2020-01-20 06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/185"}],"displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/237","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/188]","default":1},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/272/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/272","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aci81lMifn6q","deprecated":"0","summary":"DisplayForm
+        US Short.","isProduction":1,"title":"US Short (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/273","sort":"pk","dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/119","type":"GDC.time.quarter","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/192"},{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/207"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/237","tags":"date
+        quarter","created":"2010-08-02 08:13:42","identifier":"effective_to_date.quarter","deprecated":"0","summary":"Quarter
+        and Year (Q1/2010)","isProduction":1,"title":"Quarter/Year (Effective To Date)","category":"attribute","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/189"}],"displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/238","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/195]","default":1},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/273/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/273","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.act81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Short (Jan 2010).","isProduction":1,"title":"Short (Jan 2010) (Effective To
+        Date)","category":"attributeDisplayForm","updated":"2020-01-20 06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/238","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/197]","default":2},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/275/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/275","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.acx81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Long (January 2010).","isProduction":1,"title":"Long (January 2010) (Effective
+        To Date)","category":"attributeDisplayForm","updated":"2020-01-20 06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/238","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/196]","default":3},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/274/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/274","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.acv81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Number (1/2010).","isProduction":1,"title":"Number (1/2010) (Effective To
+        Date)","category":"attributeDisplayForm","updated":"2020-01-20 06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/278","sort":"pk","dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/119","type":"GDC.time.month","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/204"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/238","tags":"date
+        month","created":"2010-08-02 08:13:42","identifier":"effective_to_date.month","deprecated":"0","summary":"Month
+        and Year","isProduction":1,"title":"Month/Year (Effective To Date)","category":"attribute","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"direction":"asc","sort":"pk","pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/198"}],"dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/119","type":"GDC.time.date","displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/239","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/218]","default":1,"type":"GDC.time.day_us"},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/278/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/278","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.date.mmddyyyy","deprecated":"0","summary":"DisplayForm
+        mm/dd/yyyy.","isProduction":1,"title":"mm/dd/yyyy (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/239","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/217]","default":2,"type":"GDC.time.day"},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/277/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/277","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.date.yyyymmdd","deprecated":"0","summary":"DisplayForm
+        yyyy-mm-dd.","isProduction":1,"title":"yyyy-mm-dd (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/239","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/221]","default":3,"type":"GDC.time.day_us_noleading"},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/281/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/281","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.date.mdyy","deprecated":"0","summary":"DisplayForm
+        m/d/yy (no leading zeroes).","isProduction":1,"title":"m/d/yy (no leading
+        zeroes) (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/239","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/220]","default":4,"type":"GDC.time.day_us_long"},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/280/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/280","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.date.long","deprecated":"0","summary":"DisplayForm
+        Long (Mon, Jan 1, 2010).","isProduction":1,"title":"Long (Mon, Jan 1, 2010)
+        (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/239","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/216]","default":5,"type":"GDC.time.day_eu"},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/276/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/276","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.date.ddmmyyyy","deprecated":"0","summary":"DisplayForm
+        dd/mm/yyyy.","isProduction":1,"title":"dd/mm/yyyy (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:27","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/239","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/219]","default":6,"type":"GDC.time.day_iso"},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/279/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/279","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.date.eddmmyyyy","deprecated":"0","summary":"DisplayForm
+        dd-mm-yyyy.","isProduction":1,"title":"dd-mm-yyyy (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"fk":[{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/30"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/239","tags":"date","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.date","deprecated":"0","summary":"Date","isProduction":1,"title":"Date
+        (Effective To Date)","category":"attribute","updated":"2020-01-20 06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/46"}],"dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/284","displayForms":[]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/285","tags":"","created":"2020-01-20
+        06:01:41","identifier":"attr.csv_policies.factsof","deprecated":"0","summary":"","isProduction":1,"title":"Records
+        of Policies","category":"attribute","updated":"2020-01-20 06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/88"}],"dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/284","displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/286","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/90]","default":1},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/287/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/287","tags":"","created":"2020-01-20
+        06:01:41","identifier":"label.csv_policies.customer","deprecated":"0","summary":"","isProduction":1,"title":"Customer","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"fk":[{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/28"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/286","tags":"","created":"2020-01-20
+        06:01:41","identifier":"attr.csv_policies.customer","deprecated":"0","summary":"","isProduction":1,"title":"Customer","category":"attribute","updated":"2020-01-20
+        06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/98"}],"dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/284","displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/288","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/100]","default":1},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/289/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/289","tags":"","created":"2020-01-20
+        06:01:41","identifier":"label.csv_policies.state","deprecated":"0","summary":"","isProduction":1,"title":"State","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"fk":[{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/56"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/288","tags":"","created":"2020-01-20
+        06:01:41","identifier":"attr.csv_policies.state","deprecated":"0","summary":"","isProduction":1,"title":"State","category":"attribute","updated":"2020-01-20
+        06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/21"}],"dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/284","displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/290","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/23]","default":1},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/291/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/291","tags":"","created":"2020-01-20
+        06:01:41","identifier":"label.csv_policies.coverage","deprecated":"0","summary":"","isProduction":1,"title":"Coverage","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"fk":[{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/26"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/290","tags":"","created":"2020-01-20
+        06:01:41","identifier":"attr.csv_policies.coverage","deprecated":"0","summary":"","isProduction":1,"title":"Coverage","category":"attribute","updated":"2020-01-20
+        06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/83"}],"dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/284","displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/292","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/85]","default":1},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/293/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/293","tags":"","created":"2020-01-20
+        06:01:42","identifier":"label.csv_policies.education","deprecated":"0","summary":"","isProduction":1,"title":"Education","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"fk":[{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/32"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/292","tags":"","created":"2020-01-20
+        06:01:42","identifier":"attr.csv_policies.education","deprecated":"0","summary":"","isProduction":1,"title":"Education","category":"attribute","updated":"2020-01-20
+        06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/108"}],"dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/284","displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/294","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/110]","default":1},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/295/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/295","tags":"","created":"2020-01-20
+        06:01:42","identifier":"label.csv_policies.employmentstatus","deprecated":"0","summary":"","isProduction":1,"title":"Employmentstatus","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"fk":[{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/34"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/294","tags":"","created":"2020-01-20
+        06:01:42","identifier":"attr.csv_policies.employmentstatus","deprecated":"0","summary":"","isProduction":1,"title":"Employmentstatus","category":"attribute","updated":"2020-01-20
+        06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/73"}],"dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/284","displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/296","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/75]","default":1},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/297/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/297","tags":"","created":"2020-01-20
+        06:01:42","identifier":"label.csv_policies.gender","deprecated":"0","summary":"","isProduction":1,"title":"Gender","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"fk":[{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/44"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/296","tags":"","created":"2020-01-20
+        06:01:42","identifier":"attr.csv_policies.gender","deprecated":"0","summary":"","isProduction":1,"title":"Gender","category":"attribute","updated":"2020-01-20
+        06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/16"}],"dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/284","displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/298","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/18]","default":1},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/299/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/299","tags":"","created":"2020-01-20
+        06:01:42","identifier":"label.csv_policies.marital_status","deprecated":"0","summary":"","isProduction":1,"title":"Marital
+        Status","category":"attributeDisplayForm","updated":"2020-01-20 06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"fk":[{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/48"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/298","tags":"","created":"2020-01-20
+        06:01:42","identifier":"attr.csv_policies.marital_status","deprecated":"0","summary":"","isProduction":1,"title":"Marital
+        Status","category":"attribute","updated":"2020-01-20 06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/93"}],"dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/284","displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/300","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/95]","default":1},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/301/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/301","tags":"","created":"2020-01-20
+        06:01:42","identifier":"label.csv_policies.policy_type","deprecated":"0","summary":"","isProduction":1,"title":"Policy
+        Type","category":"attributeDisplayForm","updated":"2020-01-20 06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"fk":[{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/50"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/300","tags":"","created":"2020-01-20
+        06:01:42","identifier":"attr.csv_policies.policy_type","deprecated":"0","summary":"","isProduction":1,"title":"Policy
+        Type","category":"attribute","updated":"2020-01-20 06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/68"}],"dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/284","displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/302","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/70]","default":1},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/303/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/303","tags":"","created":"2020-01-20
+        06:01:42","identifier":"label.csv_policies.renew_offer_type","deprecated":"0","summary":"","isProduction":1,"title":"Renew
+        Offer Type","category":"attributeDisplayForm","updated":"2020-01-20 06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"fk":[{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/52"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/302","tags":"","created":"2020-01-20
+        06:01:42","identifier":"attr.csv_policies.renew_offer_type","deprecated":"0","summary":"","isProduction":1,"title":"Renew
+        Offer Type","category":"attribute","updated":"2020-01-20 06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/113"}],"dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/284","displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/304","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/115]","default":1},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/305/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/305","tags":"","created":"2020-01-20
+        06:01:42","identifier":"label.csv_policies.sales_channel","deprecated":"0","summary":"","isProduction":1,"title":"Sales
+        Channel","category":"attributeDisplayForm","updated":"2020-01-20 06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"fk":[{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/54"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/304","tags":"","created":"2020-01-20
+        06:01:42","identifier":"attr.csv_policies.sales_channel","deprecated":"0","summary":"","isProduction":1,"title":"Sales
+        Channel","category":"attribute","updated":"2020-01-20 06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/63"}],"dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/284","displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/306","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/65]","default":1},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/307/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/307","tags":"","created":"2020-01-20
+        06:01:42","identifier":"label.csv_policies.vehicle_class","deprecated":"0","summary":"","isProduction":1,"title":"Vehicle
+        Class","category":"attributeDisplayForm","updated":"2020-01-20 06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"fk":[{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/58"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/306","tags":"","created":"2020-01-20
+        06:01:42","identifier":"attr.csv_policies.vehicle_class","deprecated":"0","summary":"","isProduction":1,"title":"Vehicle
+        Class","category":"attribute","updated":"2020-01-20 06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/78"}],"dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/284","displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/308","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/80]","default":1},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/309/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/309","tags":"","created":"2020-01-20
+        06:01:42","identifier":"label.csv_policies.vehicle_size","deprecated":"0","summary":"","isProduction":1,"title":"Vehicle
+        Size","category":"attributeDisplayForm","updated":"2020-01-20 06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"fk":[{"multivalue":false,"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/60"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/308","tags":"","created":"2020-01-20
+        06:01:42","identifier":"attr.csv_policies.vehicle_size","deprecated":"0","summary":"","isProduction":1,"title":"Vehicle
+        Size","category":"attribute","updated":"2020-01-20 06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"rel":["to
+        {attr.csv_policies.state} as case when {metric.customers.count} <= 1000 then
+        {attr.comp.my_computed_attr?\"Small\"}, when {metric.customers.count} <= 2000
+        then {attr.comp.my_computed_attr?\"Medium\"}, when {metric.customers.count}
+        > 2000 then {attr.comp.my_computed_attr?\"Large\"} else {attr.comp.my_computed_attr?\"\"}
+        end"],"drillDownStepAttributeDF":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/287","pk":[{"type":"col","data":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/103"}],"dimension":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/310","displayForms":[{"content":{"formOf":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/311","expression":"[/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/105]","default":1},"links":{"elements":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/312/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/312","tags":"","created":"2020-01-20
+        06:01:42","identifier":"label.comp.my_computed_attr","deprecated":"0","summary":"","isProduction":1,"title":"Label.Comp.My
+        Computed Attr","category":"attributeDisplayForm","updated":"2020-01-20 06:04:26","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/xsz1uanbekkxjyc5i9i2sh85khwy8xn9/obj/311","tags":"","created":"2020-01-20
+        06:01:42","identifier":"attr.comp.my_computed_attr","deprecated":"0","summary":"","isProduction":1,"title":"My
+        computed attribute","category":"attribute","updated":"2020-01-20 06:04:48","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}}]}}'
+    http_version: 
+  recorded_at: Mon, 20 Jan 2020 05:07:04 GMT
+- request:
+    method: get
+    uri: https://staging2-lcm-prod.intgdc.com/gdc/md/k591rceob1b44duhsipej4abqcntgqxi
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.9/x86_64-darwin17/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":khvB9WRu3MGEpnzND4O8Vw:93uJiyRxqxUy1d77GzZBWQ"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-prod.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 20 Jan 2020 05:07:05 GMT
+      Server:
+      - GoodData WebApp
+      Keep-Alive:
+      - timeout=5, max=100
+      X-Gdc-Log-Header:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      X-Gdc-Request-Time:
+      - '55'
+      X-Gdc-Request:
+      - ":khvB9WRu3MGEpnzND4O8Vw:93uJiyRxqxUy1d77GzZBWQ:m64futLp840GTPG6"
+      Vary:
+      - Accept-Encoding,origin,X-GDC-VERSION
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"about":{"summary":"Metadata service for project ''k591rceob1b44duhsipej4abqcntgqxi''","category":"project","instance":"k591rceob1b44duhsipej4abqcntgqxi","links":[{"link":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/data","summary":"Resources
+        for data set manipulation.","category":"data","title":"data"},{"link":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/dml","summary":"Navigation
+        resource for physical data manipulation.","category":"dml","title":"dml"},{"link":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/drillcrosspaths","summary":"Returns
+        a list of attributes available for drilling across.","category":"drillcrosspaths","title":"drillcrosspaths"},{"link":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/etl","summary":"Resources
+        for data ETL.","category":"etl","title":"etl"},{"link":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/datedimension","summary":"Resources
+        for Date Dimension manipulation","category":"datedimension","title":"datedimension"},{"link":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/favorites","summary":"Returns
+        list of objects marked as favorites by the user.","category":"favorites","title":"favorites"},{"link":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/favorite","summary":"Resource
+        for determining if an object is in a user''s favorites.","category":"favorite","title":"favorite"},{"link":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/identifiers","summary":"Resource
+        for retrieving metadata object identifiers.","category":"instance-identifiers","title":"identifiers"},{"link":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/labels","summary":"Resource
+        for retrieving uris for element labels.","category":"labels","title":"labels"},{"link":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/ldm","summary":"Resources
+        for logical data model (LDM) manipulation.","category":"ldm","title":"ldm"},{"link":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/log","summary":"Returns
+        a list of metadata events.","category":"logs","title":"logs"},{"link":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/maintenance","summary":"Resource
+        for project maintenace.","category":"maintenance","title":"maintenance"},{"link":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/maqlvalidator","summary":"Resource
+        for MAQL construct validation and tree representation.","category":"maqlvalidator","title":"MaqlValidator"},{"link":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj","summary":"Resource
+        for creating new metadata objects.","category":"obj","title":"obj"},{"link":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/objects","summary":"Resource
+        for batch operations MD objects.","category":"objects","title":"objects"},{"link":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/query","summary":"Resources
+        for querying collections of metadata objects.","category":"query","title":"query"},{"link":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/reportstatistics","summary":"Returns
+        report statistics for a specified report.","category":"report-statistic","title":"report
+        statistics"},{"link":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/search","summary":"Resource
+        for full text search.","category":"search","title":"search"},{"link":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/service","summary":"Services
+        for metadata configuration.","category":"service","title":"service"},{"link":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/tags","summary":"Returns
+        a list of tags.","category":"tags","title":"tags"},{"link":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/tasks","summary":"Task
+        resource.","category":"tasks","title":"tasks"},{"link":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/templates","summary":"Returns
+        list of uris of templates from which the project was created.","category":"templates","title":"templates"},{"link":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/translations","summary":"Resource
+        for project localization.","category":"translations","title":"translations"},{"link":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/usedby2","summary":"Returns
+        list of objects connected to a certain object via a ''used'' edge.","category":"usedby2","title":"usedby"},{"link":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/using2","summary":"Returns
+        list of objects connected to a certain object via a ''using'' edge.","category":"using2","title":"using"},{"link":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/userfilters","summary":"Relation
+        userFilter - user management.","category":"userfilters","title":"userfilters"},{"link":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/validate","summary":"Resources
+        for LDM, PDM, IO validation.","category":"validate-project","title":"validateproject"},{"link":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/variables","summary":"Resources
+        for variable manipulation.","category":"vars","title":"variables"}]}}'
+    http_version: 
+  recorded_at: Mon, 20 Jan 2020 05:07:05 GMT
+- request:
+    method: get
+    uri: https://staging2-lcm-prod.intgdc.com/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/objects/query?category=attribute&limit=50&offset=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.9/x86_64-darwin17/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":khvB9WRu3MGEpnzND4O8Vw:ea-g76gL5yC-CisNb2rj_g"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-prod.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 20 Jan 2020 05:07:06 GMT
+      Server:
+      - GoodData WebApp
+      Keep-Alive:
+      - timeout=5, max=100
+      X-Gdc-Log-Header:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      X-Gdc-Request-Time:
+      - '344'
+      X-Gdc-Request:
+      - ":khvB9WRu3MGEpnzND4O8Vw:ea-g76gL5yC-CisNb2rj_g:qxSHvcb32d0LdG5x"
+      Vary:
+      - Accept-Encoding,origin,X-GDC-VERSION
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"objects":{"paging":{"count":32,"offset":0},"items":[{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/138"}],"displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/222","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/139]","default":1},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/240/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/240","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aag81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Year.","isProduction":1,"title":"Year (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:02:04","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/272","sort":"pk","dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/119","type":"GDC.time.year","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/186"},{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/194"},{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/209"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/222","tags":"date
+        year","created":"2010-08-02 08:13:42","identifier":"effective_to_date.year","deprecated":"0","summary":"Year","isProduction":1,"title":"Year
+        (Effective To Date)","category":"attribute","updated":"2020-01-20 06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/140"}],"displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/223","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/141]","default":1},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/241/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/241","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aam81lMifn6q","deprecated":"0","summary":"DisplayForm
+        default.","isProduction":1,"title":"default (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/272","sort":"pk","dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/119","type":"GDC.time.quarter_in_year","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/187"},{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/193"},{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/208"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/223","tags":"date
+        quarter year","created":"2010-08-02 08:13:42","identifier":"effective_to_date.quarter.in.year","deprecated":"0","summary":"Generic
+        Quarter (Q1-Q4)","isProduction":1,"title":"Quarter (Effective To Date)","category":"attribute","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/142"}],"displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/224","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/147]","default":1},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/246/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/246","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aaA81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Week #/Year (W1/2010).","isProduction":1,"title":"Week #/Year (W1/2010) (Effective
+        To Date)","category":"attributeDisplayForm","updated":"2020-01-20 06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/224","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/145]","default":2},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/244/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/244","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aaw81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Week Starting.","isProduction":1,"title":"Week Starting (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/224","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/144]","default":3},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/243/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/243","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aau81lMifn6q","deprecated":"0","summary":"DisplayForm
+        From - To.","isProduction":1,"title":"From - To (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/224","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/146]","default":5},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/245/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/245","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aay81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Week #/Year (Cont.).","isProduction":1,"title":"Week #/Year (Cont.) (Effective
+        To Date)","category":"attributeDisplayForm","updated":"2020-01-20 06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/224","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/148]","default":6},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/247/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/247","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aaC81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Wk/Qtr/Year (Cont.).","isProduction":1,"title":"Wk/Qtr/Year (Cont.) (Effective
+        To Date)","category":"attributeDisplayForm","updated":"2020-01-20 06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/224","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/143]","default":7},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/242/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/242","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aas81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Wk/Qtr/Year.","isProduction":1,"title":"Wk/Qtr/Year (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/278","sort":"pk","dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/119","type":"GDC.time.week_us","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/210"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/224","tags":"date
+        week","created":"2010-08-02 08:13:42","identifier":"effective_to_date.week","deprecated":"0","summary":"Week/Year
+        based on US Weeks (Sun-Sat). By default, if a week spans multiple years or
+        quarters (ie, end of the year/quarter), it is marked as first or last week
+        of the period according to particular standards (ie, US or EU). Labels marked
+        as \"Continuous\" show both weeks (W53/2009 - W1/2010).","isProduction":1,"title":"Week
+        (Sun-Sat)/Year (Effective To Date)","category":"attribute","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/149"}],"displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/225","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/150]","default":1},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/248/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/248","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aaI81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Number US.","isProduction":1,"title":"Number US (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/278","sort":"pk","dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/119","type":"GDC.time.week_in_year","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/212"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/225","tags":"date
+        week year","created":"2010-08-02 08:13:42","identifier":"effective_to_date.week.in.year","deprecated":"0","summary":"Generic
+        Week based on US Weeks (Sun-Sat)","isProduction":1,"title":"Week (Sun-Sat)
+        (Effective To Date)","category":"attribute","updated":"2020-01-20 06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/151"}],"displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/226","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/152]","default":1},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/249/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/249","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aaO81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Number US.","isProduction":1,"title":"Number US (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/278","sort":"pk","dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/119","type":"GDC.time.week_in_quarter","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/211"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/226","tags":"date
+        quarter week","created":"2010-08-02 08:13:42","identifier":"effective_to_date.week.in.quarter","deprecated":"0","summary":"Generic
+        Week of Quarter based on US Weeks (W1, ..., W14)","isProduction":1,"title":"Week
+        (Sun-Sat) of Qtr (Effective To Date)","category":"attribute","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/153"}],"displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/227","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/158]","default":1},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/254/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/254","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aa281lMifn6q","deprecated":"0","summary":"DisplayForm
+        Week #/Year (W1/2010).","isProduction":1,"title":"Week #/Year (W1/2010) (Effective
+        To Date)","category":"attributeDisplayForm","updated":"2020-01-20 06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/227","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/156]","default":2},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/252/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/252","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aaY81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Week Starting.","isProduction":1,"title":"Week Starting (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/227","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/155]","default":3},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/251/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/251","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aaW81lMifn6q","deprecated":"0","summary":"DisplayForm
+        From - To.","isProduction":1,"title":"From - To (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/278","sort":"pk","dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/119","type":"GDC.time.week","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/213"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/227","tags":"date
+        eu week","created":"2010-08-02 08:13:42","identifier":"effective_to_date.euweek","deprecated":"0","summary":"Week/Year
+        based on EU Weeks (Mon-Sun). By default, if a week spans multiple years or
+        quarters (ie, end of the year/quarter), it is marked as first or last week
+        of the period according to particular standards (ie, US or EU). Labels marked
+        as \"Continuous\" show both weeks (W53/2009 - W1/2010).","isProduction":1,"title":"Week
+        (Mon-Sun)/Year (Effective To Date)","category":"attribute","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/160"}],"displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/228","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/161]","default":1},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/256/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/256","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aba81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Number EU.","isProduction":1,"title":"Number EU (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/278","sort":"pk","dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/119","type":"GDC.time.euweek_in_year","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/215"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/228","tags":"date
+        eu week year","created":"2010-08-02 08:13:42","identifier":"effective_to_date.euweek.in.year","deprecated":"0","summary":"Generic
+        Week based on EU Weeks (Mon-Sun)","isProduction":1,"title":"Week (Mon-Sun)
+        (Effective To Date)","category":"attribute","updated":"2020-01-20 06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/162"}],"displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/229","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/163]","default":1},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/257/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/257","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.abg81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Number EU.","isProduction":1,"title":"Number EU (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/278","sort":"pk","dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/119","type":"GDC.time.euweek_in_quarter","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/214"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/229","tags":"date
+        eu quarter week","created":"2010-08-02 08:13:42","identifier":"effective_to_date.euweek.in.quarter","deprecated":"0","summary":"Generic
+        Week of Quarter based on EU Weeks (W1, ..., W14)","isProduction":1,"title":"Week
+        (Mon-Sun) of Qtr (Effective To Date)","category":"attribute","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/164"}],"displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/230","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/165]","default":1},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/258/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/258","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.abm81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Short (Jan).","isProduction":1,"title":"Short (Jan) (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/230","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/168]","default":2},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/261/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/261","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.abs81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Long (January).","isProduction":1,"title":"Long (January) (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/230","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/167]","default":3},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/260/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/260","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.abq81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Number (M1).","isProduction":1,"title":"Number (M1) (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/230","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/166]","default":4},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/259/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/259","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.abo81lMifn6q","deprecated":"0","summary":"DisplayForm
+        M/Q (M1/Q1).","isProduction":1,"title":"M/Q (M1/Q1) (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/273","sort":"pk","dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/119","type":"GDC.time.month_in_year","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/190"},{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/205"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/230","tags":"date
+        month year","created":"2010-08-02 08:13:42","identifier":"effective_to_date.month.in.year","deprecated":"0","summary":"Generic
+        Month","isProduction":1,"title":"Month (Effective To Date)","category":"attribute","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/169"}],"displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/231","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/170]","default":1},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/262/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/262","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aby81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Number.","isProduction":1,"title":"Number (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/273","sort":"pk","dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/119","type":"GDC.time.month_in_quarter","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/191"},{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/206"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/231","tags":"date
+        month quarter","created":"2010-08-02 08:13:42","identifier":"effective_to_date.month.in.quarter","deprecated":"0","summary":"Generic
+        month of quarter (M1, M2, M3)","isProduction":1,"title":"Month of Quarter
+        (Effective To Date)","category":"attribute","updated":"2020-01-20 06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/171"}],"displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/232","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/172]","default":1},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/263/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/263","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.abE81lMifn6q","deprecated":"0","summary":"DisplayForm
+        default.","isProduction":1,"title":"default (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/278","sort":"pk","dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/119","type":"GDC.time.day_in_year","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/203"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/232","tags":"date
+        day year","created":"2010-08-02 08:13:42","identifier":"effective_to_date.day.in.year","deprecated":"0","summary":"Generic
+        Day of the Year (D1, D2, ... , D365)","isProduction":1,"title":"Day of Year
+        (Effective To Date)","category":"attribute","updated":"2020-01-20 06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/173"}],"displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/233","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/174]","default":1},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/264/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/264","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.abK81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Short (Sun).","isProduction":1,"title":"Short (Sun) (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/233","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/176]","default":2},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/266/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/266","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.abO81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Long (Sunday).","isProduction":1,"title":"Long (Sunday) (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/233","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/175]","default":3},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/265/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/265","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.abM81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Number (1=Sunday).","isProduction":1,"title":"Number (1=Sunday) (Effective
+        To Date)","category":"attributeDisplayForm","updated":"2020-01-20 06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/278","sort":"pk","dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/119","type":"GDC.time.day_in_week","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/201"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/233","tags":"date
+        day week","created":"2010-08-02 08:13:42","identifier":"effective_to_date.day.in.week","deprecated":"0","summary":"Generic
+        Day of the Week based on US Week (Sun-Sat)","isProduction":1,"title":"Day
+        of Week (Sun-Sat) (Effective To Date)","category":"attribute","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/177"}],"displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/234","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/178]","default":1},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/267/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/267","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.abU81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Short (Mon).","isProduction":1,"title":"Short (Mon) (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/234","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/180]","default":2},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/269/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/269","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.abY81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Long (Monday).","isProduction":1,"title":"Long (Monday) (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/234","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/179]","default":3},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/268/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/268","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.abW81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Number (1=Monday).","isProduction":1,"title":"Number (1=Monday) (Effective
+        To Date)","category":"attributeDisplayForm","updated":"2020-01-20 06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/278","sort":"pk","dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/119","type":"GDC.time.day_in_euweek","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/202"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/234","tags":"date
+        day eu week","created":"2010-08-02 08:13:42","identifier":"effective_to_date.day.in.euweek","deprecated":"0","summary":"Generic
+        Day based on EU Week (Mon-Sun)","isProduction":1,"title":"Day of Week (Mon-Sun)
+        (Effective To Date)","category":"attribute","updated":"2020-01-20 06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/181"}],"displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/235","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/182]","default":1},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/270/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/270","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.ab481lMifn6q","deprecated":"0","summary":"DisplayForm
+        default.","isProduction":1,"title":"default (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/278","sort":"pk","dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/119","type":"GDC.time.day_in_quarter","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/200"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/235","tags":"date
+        day quarter","created":"2010-08-02 08:13:42","identifier":"effective_to_date.day.in.quarter","deprecated":"0","summary":"Generic
+        day of quarter (D1, D2, ... , D92)","isProduction":1,"title":"Day of Quarter
+        (Effective To Date)","category":"attribute","updated":"2020-01-20 06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/183"}],"displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/236","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/184]","default":1},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/271/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/271","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aca81lMifn6q","deprecated":"0","summary":"DisplayForm
+        default.","isProduction":1,"title":"default (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/278","sort":"pk","dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/119","type":"GDC.time.day_in_month","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/199"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/236","tags":"date
+        day month","created":"2010-08-02 08:13:42","identifier":"effective_to_date.day.in.month","deprecated":"0","summary":"Generic
+        day of month (D1, D2, ... , D31)","isProduction":1,"title":"Day of Month (Effective
+        To Date)","category":"attribute","updated":"2020-01-20 06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/185"}],"displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/237","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/188]","default":1},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/272/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/272","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.aci81lMifn6q","deprecated":"0","summary":"DisplayForm
+        US Short.","isProduction":1,"title":"US Short (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/273","sort":"pk","dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/119","type":"GDC.time.quarter","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/192"},{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/207"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/237","tags":"date
+        quarter","created":"2010-08-02 08:13:42","identifier":"effective_to_date.quarter","deprecated":"0","summary":"Quarter
+        and Year (Q1/2010)","isProduction":1,"title":"Quarter/Year (Effective To Date)","category":"attribute","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/189"}],"displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/238","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/195]","default":1},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/273/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/273","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.act81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Short (Jan 2010).","isProduction":1,"title":"Short (Jan 2010) (Effective To
+        Date)","category":"attributeDisplayForm","updated":"2020-01-20 06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/238","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/197]","default":2},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/275/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/275","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.acx81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Long (January 2010).","isProduction":1,"title":"Long (January 2010) (Effective
+        To Date)","category":"attributeDisplayForm","updated":"2020-01-20 06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/238","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/196]","default":3},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/274/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/274","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.acv81lMifn6q","deprecated":"0","summary":"DisplayForm
+        Number (1/2010).","isProduction":1,"title":"Number (1/2010) (Effective To
+        Date)","category":"attributeDisplayForm","updated":"2020-01-20 06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"direction":"asc","drillDownStepAttributeDF":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/278","sort":"pk","dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/119","type":"GDC.time.month","fk":[{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/204"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/238","tags":"date
+        month","created":"2010-08-02 08:13:42","identifier":"effective_to_date.month","deprecated":"0","summary":"Month
+        and Year","isProduction":1,"title":"Month/Year (Effective To Date)","category":"attribute","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"direction":"asc","sort":"pk","pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/198"}],"dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/119","type":"GDC.time.date","displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/239","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/218]","default":1,"type":"GDC.time.day_us"},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/278/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/278","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.date.mmddyyyy","deprecated":"0","summary":"DisplayForm
+        mm/dd/yyyy.","isProduction":1,"title":"mm/dd/yyyy (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/239","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/217]","default":2,"type":"GDC.time.day"},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/277/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/277","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.date.yyyymmdd","deprecated":"0","summary":"DisplayForm
+        yyyy-mm-dd.","isProduction":1,"title":"yyyy-mm-dd (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/239","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/221]","default":3,"type":"GDC.time.day_us_noleading"},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/281/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/281","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.date.mdyy","deprecated":"0","summary":"DisplayForm
+        m/d/yy (no leading zeroes).","isProduction":1,"title":"m/d/yy (no leading
+        zeroes) (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/239","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/220]","default":4,"type":"GDC.time.day_us_long"},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/280/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/280","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.date.long","deprecated":"0","summary":"DisplayForm
+        Long (Mon, Jan 1, 2010).","isProduction":1,"title":"Long (Mon, Jan 1, 2010)
+        (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/239","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/216]","default":5,"type":"GDC.time.day_eu"},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/276/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/276","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.date.ddmmyyyy","deprecated":"0","summary":"DisplayForm
+        dd/mm/yyyy.","isProduction":1,"title":"dd/mm/yyyy (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}},{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/239","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/219]","default":6,"type":"GDC.time.day_iso"},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/279/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/279","tags":"","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.date.eddmmyyyy","deprecated":"0","summary":"DisplayForm
+        dd-mm-yyyy.","isProduction":1,"title":"dd-mm-yyyy (Effective To Date)","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"fk":[{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/30"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/239","tags":"date","created":"2010-08-02
+        08:13:42","identifier":"effective_to_date.date","deprecated":"0","summary":"Date","isProduction":1,"title":"Date
+        (Effective To Date)","category":"attribute","updated":"2020-01-20 06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"rel":["to
+        {attr.csv_policies.state} as case when {metric.customers.count} <= 1000 then
+        {attr.comp.my_computed_attr?\"Small\"}, when {metric.customers.count} <= 2000
+        then {attr.comp.my_computed_attr?\"Medium\"}, when {metric.customers.count}
+        > 2000 then {attr.comp.my_computed_attr?\"Large\"} else {attr.comp.my_computed_attr?\"\"}
+        end"],"drillDownStepAttributeDF":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/290","pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/103"}],"dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/284","displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/285","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/105]","default":1},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/286/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/286","tags":"","created":"2020-01-20
+        06:02:04","identifier":"label.comp.my_computed_attr","deprecated":"0","summary":"","isProduction":1,"title":"Label.Comp.My
+        Computed Attr","category":"attributeDisplayForm","updated":"2020-01-20 06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/285","tags":"","created":"2020-01-20
+        06:02:04","identifier":"attr.comp.my_computed_attr","deprecated":"0","summary":"","isProduction":1,"title":"My
+        computed attribute","category":"attribute","updated":"2020-01-20 06:04:54","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/46"}],"dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/287","displayForms":[]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/288","tags":"","created":"2020-01-20
+        06:02:04","identifier":"attr.csv_policies.factsof","deprecated":"0","summary":"","isProduction":1,"title":"Records
+        of Policies","category":"attribute","updated":"2020-01-20 06:04:43","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/88"}],"dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/287","displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/289","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/90]","default":1},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/290/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/290","tags":"","created":"2020-01-20
+        06:02:04","identifier":"label.csv_policies.customer","deprecated":"0","summary":"","isProduction":1,"title":"Customer","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:42","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"fk":[{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/28"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/289","tags":"","created":"2020-01-20
+        06:02:04","identifier":"attr.csv_policies.customer","deprecated":"0","summary":"","isProduction":1,"title":"Customer","category":"attribute","updated":"2020-01-20
+        06:04:42","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/98"}],"dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/287","displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/291","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/100]","default":1},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/292/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/292","tags":"","created":"2020-01-20
+        06:02:05","identifier":"label.csv_policies.state","deprecated":"0","summary":"","isProduction":1,"title":"State","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:42","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"fk":[{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/56"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/291","tags":"","created":"2020-01-20
+        06:02:04","identifier":"attr.csv_policies.state","deprecated":"0","summary":"","isProduction":1,"title":"State","category":"attribute","updated":"2020-01-20
+        06:04:42","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/21"}],"dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/287","displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/293","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/23]","default":1},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/294/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/294","tags":"","created":"2020-01-20
+        06:02:05","identifier":"label.csv_policies.coverage","deprecated":"0","summary":"","isProduction":1,"title":"Coverage","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:42","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"fk":[{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/26"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/293","tags":"","created":"2020-01-20
+        06:02:05","identifier":"attr.csv_policies.coverage","deprecated":"0","summary":"","isProduction":1,"title":"Coverage","category":"attribute","updated":"2020-01-20
+        06:04:42","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/83"}],"dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/287","displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/295","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/85]","default":1},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/296/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/296","tags":"","created":"2020-01-20
+        06:02:05","identifier":"label.csv_policies.education","deprecated":"0","summary":"","isProduction":1,"title":"Education","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:42","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"fk":[{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/32"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/295","tags":"","created":"2020-01-20
+        06:02:05","identifier":"attr.csv_policies.education","deprecated":"0","summary":"","isProduction":1,"title":"Education","category":"attribute","updated":"2020-01-20
+        06:04:42","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/108"}],"dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/287","displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/297","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/110]","default":1},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/298/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/298","tags":"","created":"2020-01-20
+        06:02:05","identifier":"label.csv_policies.employmentstatus","deprecated":"0","summary":"","isProduction":1,"title":"Employmentstatus","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:42","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"fk":[{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/34"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/297","tags":"","created":"2020-01-20
+        06:02:05","identifier":"attr.csv_policies.employmentstatus","deprecated":"0","summary":"","isProduction":1,"title":"Employmentstatus","category":"attribute","updated":"2020-01-20
+        06:04:42","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/73"}],"dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/287","displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/299","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/75]","default":1},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/300/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/300","tags":"","created":"2020-01-20
+        06:02:05","identifier":"label.csv_policies.gender","deprecated":"0","summary":"","isProduction":1,"title":"Gender","category":"attributeDisplayForm","updated":"2020-01-20
+        06:04:42","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"fk":[{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/44"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/299","tags":"","created":"2020-01-20
+        06:02:05","identifier":"attr.csv_policies.gender","deprecated":"0","summary":"","isProduction":1,"title":"Gender","category":"attribute","updated":"2020-01-20
+        06:04:42","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/16"}],"dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/287","displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/301","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/18]","default":1},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/302/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/302","tags":"","created":"2020-01-20
+        06:02:05","identifier":"label.csv_policies.marital_status","deprecated":"0","summary":"","isProduction":1,"title":"Marital
+        Status","category":"attributeDisplayForm","updated":"2020-01-20 06:04:42","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"fk":[{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/48"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/301","tags":"","created":"2020-01-20
+        06:02:05","identifier":"attr.csv_policies.marital_status","deprecated":"0","summary":"","isProduction":1,"title":"Marital
+        Status","category":"attribute","updated":"2020-01-20 06:04:42","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/93"}],"dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/287","displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/303","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/95]","default":1},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/304/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/304","tags":"","created":"2020-01-20
+        06:02:05","identifier":"label.csv_policies.policy_type","deprecated":"0","summary":"","isProduction":1,"title":"Policy
+        Type","category":"attributeDisplayForm","updated":"2020-01-20 06:04:42","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"fk":[{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/50"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/303","tags":"","created":"2020-01-20
+        06:02:05","identifier":"attr.csv_policies.policy_type","deprecated":"0","summary":"","isProduction":1,"title":"Policy
+        Type","category":"attribute","updated":"2020-01-20 06:04:42","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/68"}],"dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/287","displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/305","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/70]","default":1},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/306/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/306","tags":"","created":"2020-01-20
+        06:02:05","identifier":"label.csv_policies.renew_offer_type","deprecated":"0","summary":"","isProduction":1,"title":"Renew
+        Offer Type","category":"attributeDisplayForm","updated":"2020-01-20 06:04:42","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"fk":[{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/52"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/305","tags":"","created":"2020-01-20
+        06:02:05","identifier":"attr.csv_policies.renew_offer_type","deprecated":"0","summary":"","isProduction":1,"title":"Renew
+        Offer Type","category":"attribute","updated":"2020-01-20 06:04:42","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/113"}],"dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/287","displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/307","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/115]","default":1},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/308/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/308","tags":"","created":"2020-01-20
+        06:02:05","identifier":"label.csv_policies.sales_channel","deprecated":"0","summary":"","isProduction":1,"title":"Sales
+        Channel","category":"attributeDisplayForm","updated":"2020-01-20 06:04:42","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"fk":[{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/54"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/307","tags":"","created":"2020-01-20
+        06:02:05","identifier":"attr.csv_policies.sales_channel","deprecated":"0","summary":"","isProduction":1,"title":"Sales
+        Channel","category":"attribute","updated":"2020-01-20 06:04:42","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/63"}],"dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/287","displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/309","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/65]","default":1},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/310/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/310","tags":"","created":"2020-01-20
+        06:02:05","identifier":"label.csv_policies.vehicle_class","deprecated":"0","summary":"","isProduction":1,"title":"Vehicle
+        Class","category":"attributeDisplayForm","updated":"2020-01-20 06:04:42","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"fk":[{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/58"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/309","tags":"","created":"2020-01-20
+        06:02:05","identifier":"attr.csv_policies.vehicle_class","deprecated":"0","summary":"","isProduction":1,"title":"Vehicle
+        Class","category":"attribute","updated":"2020-01-20 06:04:42","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"attribute":{"content":{"pk":[{"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/78"}],"dimension":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/287","displayForms":[{"content":{"formOf":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/311","expression":"[/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/80]","default":1},"links":{"elements":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/312/elements"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/312","tags":"","created":"2020-01-20
+        06:02:05","identifier":"label.csv_policies.vehicle_size","deprecated":"0","summary":"","isProduction":1,"title":"Vehicle
+        Size","category":"attributeDisplayForm","updated":"2020-01-20 06:04:42","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}],"fk":[{"multivalue":false,"type":"col","data":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/60"}]},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/k591rceob1b44duhsipej4abqcntgqxi/obj/311","tags":"","created":"2020-01-20
+        06:02:05","identifier":"attr.csv_policies.vehicle_size","deprecated":"0","summary":"","isProduction":1,"title":"Vehicle
+        Size","category":"attribute","updated":"2020-01-20 06:04:42","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}}]}}'
+    http_version: 
+  recorded_at: Mon, 20 Jan 2020 05:07:06 GMT
+recorded_with: VCR 5.0.0

@@ -110,4 +110,118 @@ http_interactions:
         14:59:37","updated":"2019-04-18 14:59:37"},"links":{"self":"/gdc/userGroups/bO9BNenHLi30K4blNGcMV8w","members":"/gdc/userGroups/bO9BNenHLi30K4blNGcMV8w/members","modifyMembers":"/gdc/userGroups/bO9BNenHLi30K4blNGcMV8w/modifyMembers"}}}]}}'
     http_version: 
   recorded_at: Thu, 18 Apr 2019 12:59:55 GMT
-recorded_with: VCR 4.0.0
+- request:
+    method: get
+    uri: https://staging2-lcm-prod.intgdc.com/gdc/userGroups?project=xsz1uanbekkxjyc5i9i2sh85khwy8xn9
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.9/x86_64-darwin17/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":khvB9WRu3MGEpnzND4O8Vw:wT0es-1E5OAeEh8_tBT3AA"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-prod.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Gdc-Log-Header:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Mon, 20 Jan 2020 05:06:45 GMT
+      Server:
+      - GoodData WebApp
+      X-Gdc-Request-Time:
+      - '20'
+      X-Gdc-Request:
+      - ":khvB9WRu3MGEpnzND4O8Vw:wT0es-1E5OAeEh8_tBT3AA:PqMalU5glMKkYvxi"
+      Vary:
+      - origin,X-GDC-VERSION
+      Transfer-Encoding:
+      - chunked
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"userGroups":{"paging":{"offset":null,"limit":1000,"next":null},"items":[{"userGroup":{"content":{"name":"My
+        Test Group","id":"b12tM3WKbG5kPORaCoB_AEg","description":"My Test Description","domain":null,"project":"/gdc/projects/xsz1uanbekkxjyc5i9i2sh85khwy8xn9"},"meta":{"created":"2020-01-20
+        06:06:10","updated":"2020-01-20 06:06:10"},"links":{"self":"/gdc/userGroups/b12tM3WKbG5kPORaCoB_AEg","members":"/gdc/userGroups/b12tM3WKbG5kPORaCoB_AEg/members","modifyMembers":"/gdc/userGroups/b12tM3WKbG5kPORaCoB_AEg/modifyMembers"}}}]}}'
+    http_version: 
+  recorded_at: Mon, 20 Jan 2020 05:06:45 GMT
+- request:
+    method: get
+    uri: https://staging2-lcm-prod.intgdc.com/gdc/userGroups?project=k591rceob1b44duhsipej4abqcntgqxi
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.9/x86_64-darwin17/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":khvB9WRu3MGEpnzND4O8Vw:1uUhjkEeNtCg0GpGCNgWZw"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-prod.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Gdc-Log-Header:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Mon, 20 Jan 2020 05:06:45 GMT
+      Server:
+      - GoodData WebApp
+      X-Gdc-Request-Time:
+      - '21'
+      X-Gdc-Request:
+      - ":khvB9WRu3MGEpnzND4O8Vw:1uUhjkEeNtCg0GpGCNgWZw:B63340JT8sDD0SvC"
+      Vary:
+      - origin,X-GDC-VERSION
+      Transfer-Encoding:
+      - chunked
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"userGroups":{"paging":{"offset":null,"limit":1000,"next":null},"items":[{"userGroup":{"content":{"name":"My
+        Test Group","id":"bFoW94Ks_6Lf4ci41YojQPQ","description":"My Test Description","domain":null,"project":"/gdc/projects/k591rceob1b44duhsipej4abqcntgqxi"},"meta":{"created":"2020-01-20
+        06:06:22","updated":"2020-01-20 06:06:22"},"links":{"self":"/gdc/userGroups/bFoW94Ks_6Lf4ci41YojQPQ","members":"/gdc/userGroups/bFoW94Ks_6Lf4ci41YojQPQ/members","modifyMembers":"/gdc/userGroups/bFoW94Ks_6Lf4ci41YojQPQ/modifyMembers"}}}]}}'
+    http_version: 
+  recorded_at: Mon, 20 Jan 2020 05:06:46 GMT
+recorded_with: VCR 5.0.0

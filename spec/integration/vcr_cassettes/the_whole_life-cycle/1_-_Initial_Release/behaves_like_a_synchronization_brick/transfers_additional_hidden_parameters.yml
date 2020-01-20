@@ -226,4 +226,234 @@ http_interactions:
         15 10 3 *","timezone":"UTC","nextExecutionTime":"2020-03-10T15:00:00.000Z","consecutiveFailedExecutionCount":0,"ownerLogin":"rubydev+admin@gooddata.com","links":{"self":"/gdc/projects/c0ioxhc4zp70r6u4lgrhfcq5ez2c1w6u/schedules/5cb87085e4b00d861ca485c8","executions":"/gdc/projects/c0ioxhc4zp70r6u4lgrhfcq5ez2c1w6u/schedules/5cb87085e4b00d861ca485c8/executions"}}}]}}'
     http_version: 
   recorded_at: Thu, 18 Apr 2019 12:42:39 GMT
-recorded_with: VCR 4.0.0
+- request:
+    method: get
+    uri: https://staging2-lcm-prod.intgdc.com/gdc/projects/e1lvfhnpoti4o9pq9ha1wslbzslbslsp/dataload/processes
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.9/x86_64-darwin17/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":khvB9WRu3MGEpnzND4O8Vw:bPb3W6j9Nf2aEiot5Ekitw"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-prod.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Gdc-Log-Header:
+      - ''
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 20 Jan 2020 04:49:36 GMT
+      Server:
+      - GoodData WebApp
+      X-Gdc-Request-Time:
+      - '9'
+      X-Gdc-Request:
+      - ":khvB9WRu3MGEpnzND4O8Vw:bPb3W6j9Nf2aEiot5Ekitw:OANgRCvn15OQNBdK"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Vary:
+      - Accept-Encoding,origin,X-GDC-VERSION
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"processes":{"items":[{"process":{"type":"GRAPH","name":"Simple CloudConnect
+        Process","graphs":["graph/test.grf"],"executables":["graph/test.grf"],"lastDeployed":"2020-01-20T04:47:42.700Z","ownerLogin":"rubydev+admin@gooddata.com","links":{"self":"/gdc/projects/e1lvfhnpoti4o9pq9ha1wslbzslbslsp/dataload/processes/57f42d72-08b4-4be9-a243-d590424fe63c","executions":"/gdc/projects/e1lvfhnpoti4o9pq9ha1wslbzslbslsp/dataload/processes/57f42d72-08b4-4be9-a243-d590424fe63c/executions","source":"/gdc/projects/e1lvfhnpoti4o9pq9ha1wslbzslbslsp/dataload/processes/57f42d72-08b4-4be9-a243-d590424fe63c/source"}}},{"process":{"type":"RUBY","name":"Simple
+        Ruby Process","path":"${PUBLIC_APPSTORE}:branch/master:/apps/hello_world_brick","graphs":["main.rb"],"executables":["main.rb"],"lastDeployed":"2020-01-20T04:47:43.680Z","ownerLogin":"rubydev+admin@gooddata.com","links":{"self":"/gdc/projects/e1lvfhnpoti4o9pq9ha1wslbzslbslsp/dataload/processes/3b951379-42ff-43ee-bb84-8b9a74c607e8","executions":"/gdc/projects/e1lvfhnpoti4o9pq9ha1wslbzslbslsp/dataload/processes/3b951379-42ff-43ee-bb84-8b9a74c607e8/executions","source":"/gdc/projects/e1lvfhnpoti4o9pq9ha1wslbzslbslsp/dataload/processes/3b951379-42ff-43ee-bb84-8b9a74c607e8/source"}}},{"process":{"type":"ETL","name":"lcm-end-to-end-csv-download","graphs":[],"executables":[],"lastDeployed":"2020-01-20T04:47:44.619Z","ownerLogin":"rubydev+admin@gooddata.com","links":{"self":"/gdc/projects/e1lvfhnpoti4o9pq9ha1wslbzslbslsp/dataload/processes/b92ae208-8943-42f8-906b-d9d23e7f6592","executions":"/gdc/projects/e1lvfhnpoti4o9pq9ha1wslbzslbslsp/dataload/processes/b92ae208-8943-42f8-906b-d9d23e7f6592/executions","source":"/gdc/projects/e1lvfhnpoti4o9pq9ha1wslbzslbslsp/dataload/processes/b92ae208-8943-42f8-906b-d9d23e7f6592/source"},"component":{"name":"gdc-etl-csv-downloader","version":"1","configLocation":{"s3":{"path":"s3://s3_bucket/s3_folder/","accessKey":"s3_access_key","serverSideEncryption":true}}}}},{"process":{"type":"ETL","name":"lcm-end-to-end-sql-exec","graphs":[],"executables":[],"lastDeployed":"2020-01-20T04:47:46.093Z","ownerLogin":"rubydev+admin@gooddata.com","links":{"self":"/gdc/projects/e1lvfhnpoti4o9pq9ha1wslbzslbslsp/dataload/processes/a6f31915-a453-400a-9668-098e3f8d2482","executions":"/gdc/projects/e1lvfhnpoti4o9pq9ha1wslbzslbslsp/dataload/processes/a6f31915-a453-400a-9668-098e3f8d2482/executions","source":"/gdc/projects/e1lvfhnpoti4o9pq9ha1wslbzslbslsp/dataload/processes/a6f31915-a453-400a-9668-098e3f8d2482/source"},"component":{"name":"gdc-etl-sql-executor","version":"1","configLocation":{"s3":{"path":"s3://s3_bucket/s3_folder/","accessKey":"s3_access_key","serverSideEncryption":true}}}}}],"links":{"self":"/gdc/projects/e1lvfhnpoti4o9pq9ha1wslbzslbslsp/dataload/processes"}}}'
+    http_version: 
+  recorded_at: Mon, 20 Jan 2020 04:49:36 GMT
+- request:
+    method: get
+    uri: https://staging2-lcm-prod.intgdc.com/gdc/projects/e1lvfhnpoti4o9pq9ha1wslbzslbslsp/schedules
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.9/x86_64-darwin17/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":khvB9WRu3MGEpnzND4O8Vw:_oDlU8a--HVjOrNbgjtiBQ"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-prod.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Gdc-Log-Header:
+      - ''
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 20 Jan 2020 04:49:37 GMT
+      Server:
+      - GoodData WebApp
+      X-Gdc-Request-Time:
+      - '11'
+      X-Gdc-Request:
+      - ":khvB9WRu3MGEpnzND4O8Vw:_oDlU8a--HVjOrNbgjtiBQ:HSCbHMx9kNIDq2Vz"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Vary:
+      - Accept-Encoding,origin,X-GDC-VERSION
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"schedules":{"paging":{"offset":0,"count":2},"schedulesLink":"/gdc/projects/e1lvfhnpoti4o9pq9ha1wslbzslbslsp/schedules","items":[{"schedule":{"name":"test.grf","type":"MSETL","state":"DISABLED","params":{"msg_from_release_brick":"Hi,
+        I was set by release brick","param_1":"a","EXECUTABLE":"graph/test.grf","param_2":"b","print_reverted":"hidden_msg_from_release_brick,SECURE_PARAM_2","PROCESS_ID":"57f42d72-08b4-4be9-a243-d590424fe63c"},"hiddenParams":{"secure_param_1":null,"secure_param_2":null,"hidden_msg_from_release_brick":null,"SECURE_PARAM_2":null},"cron":"0
+        15 10 3 *","timezone":"UTC","nextExecutionTime":"2020-03-10T15:00:00.000Z","consecutiveFailedExecutionCount":0,"ownerLogin":"rubydev+admin@gooddata.com","links":{"self":"/gdc/projects/e1lvfhnpoti4o9pq9ha1wslbzslbslsp/schedules/5e25310f1be1fc4c1b7adfb5","executions":"/gdc/projects/e1lvfhnpoti4o9pq9ha1wslbzslbslsp/schedules/5e25310f1be1fc4c1b7adfb5/executions"}}},{"schedule":{"name":"SimpleRubySchedule","type":"MSETL","state":"DISABLED","params":{"msg_from_release_brick":"Hi,
+        I was set by release brick","param_1":"a","EXECUTABLE":"main.rb","param_2":"b","print_reverted":"hidden_msg_from_release_brick,SECURE_PARAM_2","PROCESS_ID":"3b951379-42ff-43ee-bb84-8b9a74c607e8"},"hiddenParams":{"secure_param_1":null,"secure_param_2":null,"hidden_msg_from_release_brick":null,"SECURE_PARAM_2":null},"timezone":"UTC","consecutiveFailedExecutionCount":0,"ownerLogin":"rubydev+admin@gooddata.com","links":{"self":"/gdc/projects/e1lvfhnpoti4o9pq9ha1wslbzslbslsp/schedules/5e253112701b850ae212d2ad","executions":"/gdc/projects/e1lvfhnpoti4o9pq9ha1wslbzslbslsp/schedules/5e253112701b850ae212d2ad/executions"},"triggerScheduleId":"5e25310f1be1fc4c1b7adfb5"}}]}}'
+    http_version: 
+  recorded_at: Mon, 20 Jan 2020 04:49:37 GMT
+- request:
+    method: get
+    uri: https://staging2-lcm-prod.intgdc.com/gdc/projects/h2v4zjfr3uf2k5xxhsre0ya05iq5nil4/dataload/processes
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.9/x86_64-darwin17/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":khvB9WRu3MGEpnzND4O8Vw:2y8AeEVwuJeaO8gOBCVxAA"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-prod.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Gdc-Log-Header:
+      - ''
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 20 Jan 2020 04:49:38 GMT
+      Server:
+      - GoodData WebApp
+      X-Gdc-Request-Time:
+      - '11'
+      X-Gdc-Request:
+      - ":khvB9WRu3MGEpnzND4O8Vw:2y8AeEVwuJeaO8gOBCVxAA:OHUcCCJRkdVFSCCy"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Vary:
+      - Accept-Encoding,origin,X-GDC-VERSION
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"processes":{"items":[{"process":{"type":"GRAPH","name":"Simple CloudConnect
+        Process","graphs":["graph/test.grf"],"executables":["graph/test.grf"],"lastDeployed":"2020-01-20T04:47:59.293Z","ownerLogin":"rubydev+admin@gooddata.com","links":{"self":"/gdc/projects/h2v4zjfr3uf2k5xxhsre0ya05iq5nil4/dataload/processes/b6fce187-606c-4ef7-afff-6f607fc648d9","executions":"/gdc/projects/h2v4zjfr3uf2k5xxhsre0ya05iq5nil4/dataload/processes/b6fce187-606c-4ef7-afff-6f607fc648d9/executions","source":"/gdc/projects/h2v4zjfr3uf2k5xxhsre0ya05iq5nil4/dataload/processes/b6fce187-606c-4ef7-afff-6f607fc648d9/source"}}},{"process":{"type":"RUBY","name":"Simple
+        Ruby Process","path":"${PUBLIC_APPSTORE}:branch/master:/apps/hello_world_brick","graphs":["main.rb"],"executables":["main.rb"],"lastDeployed":"2020-01-20T04:48:00.221Z","ownerLogin":"rubydev+admin@gooddata.com","links":{"self":"/gdc/projects/h2v4zjfr3uf2k5xxhsre0ya05iq5nil4/dataload/processes/100d2d63-abeb-4500-a9a9-421884d4cdbc","executions":"/gdc/projects/h2v4zjfr3uf2k5xxhsre0ya05iq5nil4/dataload/processes/100d2d63-abeb-4500-a9a9-421884d4cdbc/executions","source":"/gdc/projects/h2v4zjfr3uf2k5xxhsre0ya05iq5nil4/dataload/processes/100d2d63-abeb-4500-a9a9-421884d4cdbc/source"}}},{"process":{"type":"ETL","name":"lcm-end-to-end-csv-download","graphs":[],"executables":[],"lastDeployed":"2020-01-20T04:48:01.099Z","ownerLogin":"rubydev+admin@gooddata.com","links":{"self":"/gdc/projects/h2v4zjfr3uf2k5xxhsre0ya05iq5nil4/dataload/processes/4906a18f-42a1-4a02-bca6-cccf1357d70e","executions":"/gdc/projects/h2v4zjfr3uf2k5xxhsre0ya05iq5nil4/dataload/processes/4906a18f-42a1-4a02-bca6-cccf1357d70e/executions","source":"/gdc/projects/h2v4zjfr3uf2k5xxhsre0ya05iq5nil4/dataload/processes/4906a18f-42a1-4a02-bca6-cccf1357d70e/source"},"component":{"name":"gdc-etl-csv-downloader","version":"1","configLocation":{"s3":{"path":"s3://s3_bucket/s3_folder/","accessKey":"s3_access_key","serverSideEncryption":true}}}}},{"process":{"type":"ETL","name":"lcm-end-to-end-sql-exec","graphs":[],"executables":[],"lastDeployed":"2020-01-20T04:48:01.995Z","ownerLogin":"rubydev+admin@gooddata.com","links":{"self":"/gdc/projects/h2v4zjfr3uf2k5xxhsre0ya05iq5nil4/dataload/processes/6c400eac-0e19-4ada-b8a0-ded0b0a6d9ea","executions":"/gdc/projects/h2v4zjfr3uf2k5xxhsre0ya05iq5nil4/dataload/processes/6c400eac-0e19-4ada-b8a0-ded0b0a6d9ea/executions","source":"/gdc/projects/h2v4zjfr3uf2k5xxhsre0ya05iq5nil4/dataload/processes/6c400eac-0e19-4ada-b8a0-ded0b0a6d9ea/source"},"component":{"name":"gdc-etl-sql-executor","version":"1","configLocation":{"s3":{"path":"s3://s3_bucket/s3_folder/","accessKey":"s3_access_key","serverSideEncryption":true}}}}}],"links":{"self":"/gdc/projects/h2v4zjfr3uf2k5xxhsre0ya05iq5nil4/dataload/processes"}}}'
+    http_version: 
+  recorded_at: Mon, 20 Jan 2020 04:49:38 GMT
+- request:
+    method: get
+    uri: https://staging2-lcm-prod.intgdc.com/gdc/projects/h2v4zjfr3uf2k5xxhsre0ya05iq5nil4/schedules
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.9/x86_64-darwin17/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":khvB9WRu3MGEpnzND4O8Vw:Xbj1NBp05jLyqUp9Q0MdNw"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-prod.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Gdc-Log-Header:
+      - ''
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Date:
+      - Mon, 20 Jan 2020 04:49:38 GMT
+      Server:
+      - GoodData WebApp
+      X-Gdc-Request-Time:
+      - '13'
+      X-Gdc-Request:
+      - ":khvB9WRu3MGEpnzND4O8Vw:Xbj1NBp05jLyqUp9Q0MdNw:2ojzGrOmjUQxu3HR"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Vary:
+      - Accept-Encoding,origin,X-GDC-VERSION
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"schedules":{"paging":{"offset":0,"count":2},"schedulesLink":"/gdc/projects/h2v4zjfr3uf2k5xxhsre0ya05iq5nil4/schedules","items":[{"schedule":{"name":"test.grf","type":"MSETL","state":"DISABLED","params":{"msg_from_release_brick":"Hi,
+        I was set by release brick","param_1":"a","EXECUTABLE":"graph/test.grf","param_2":"b","print_reverted":"hidden_msg_from_release_brick,SECURE_PARAM_2","PROCESS_ID":"b6fce187-606c-4ef7-afff-6f607fc648d9"},"hiddenParams":{"secure_param_1":null,"secure_param_2":null,"hidden_msg_from_release_brick":null,"SECURE_PARAM_2":null},"cron":"0
+        15 10 3 *","timezone":"UTC","nextExecutionTime":"2020-03-10T15:00:00.000Z","consecutiveFailedExecutionCount":0,"ownerLogin":"rubydev+admin@gooddata.com","links":{"self":"/gdc/projects/h2v4zjfr3uf2k5xxhsre0ya05iq5nil4/schedules/5e25311f1be1fc4c1b7adfb6","executions":"/gdc/projects/h2v4zjfr3uf2k5xxhsre0ya05iq5nil4/schedules/5e25311f1be1fc4c1b7adfb6/executions"}}},{"schedule":{"name":"SimpleRubySchedule","type":"MSETL","state":"DISABLED","params":{"msg_from_release_brick":"Hi,
+        I was set by release brick","param_1":"a","EXECUTABLE":"main.rb","param_2":"b","print_reverted":"hidden_msg_from_release_brick,SECURE_PARAM_2","PROCESS_ID":"100d2d63-abeb-4500-a9a9-421884d4cdbc"},"hiddenParams":{"secure_param_1":null,"secure_param_2":null,"hidden_msg_from_release_brick":null,"SECURE_PARAM_2":null},"timezone":"UTC","consecutiveFailedExecutionCount":0,"ownerLogin":"rubydev+admin@gooddata.com","links":{"self":"/gdc/projects/h2v4zjfr3uf2k5xxhsre0ya05iq5nil4/schedules/5e253122701b850ae212d2ae","executions":"/gdc/projects/h2v4zjfr3uf2k5xxhsre0ya05iq5nil4/schedules/5e253122701b850ae212d2ae/executions"},"triggerScheduleId":"5e25311f1be1fc4c1b7adfb6"}}]}}'
+    http_version: 
+  recorded_at: Mon, 20 Jan 2020 04:49:39 GMT
+recorded_with: VCR 5.0.0
