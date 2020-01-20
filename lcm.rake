@@ -118,7 +118,7 @@ end
 namespace :docker do
   desc 'Build Docker image'
   task :build do
-    Rake::Task["maven:build_dependencies"].invoke
+    Rake::Task["maven:build_redshift"].invoke
     system('docker build -f Dockerfile.jruby -t gooddata/appstore .')
   end
 
@@ -129,15 +129,11 @@ namespace :docker do
 end
 
 namespace :maven do
-  task :build_dependencies do
-    system('mvn -f ci/snowflake/pom.xml clean install -P binary-packaging')
-    system('cp -rf ci/snowflake/target/*.jar lib/gooddata/cloud_resources/snowflake/drivers/')
-
-    system('mvn -f ci/bigquery/pom.xml clean install -P binary-packaging')
-    system('cp -rf ci/bigquery/target/*.jar lib/gooddata/cloud_resources/bigquery/drivers/')
-
-    system('mvn -f ci/redshift/pom.xml clean install -P binary-packaging')
-    system('cp -rf ci/redshift/target/*.jar lib/gooddata/cloud_resources/redshift/drivers/')
+  task :build_redshift do
+    system("cp -rf spec/lcm/redshift_driver_pom.xml tmp/pom.xml")
+    system('mvn -f tmp/pom.xml clean install -P binary-packaging')
+    system('cp -rf tmp/target/*.jar lib/gooddata/cloud_resources/redshift/drivers/')
+    system('rm -rf lib/gooddata/cloud_resources/redshift/drivers/lcm-redshift-driver*.jar')
   end
 end
 

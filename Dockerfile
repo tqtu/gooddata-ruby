@@ -1,4 +1,9 @@
-FROM harbor.intgdc.com/tools/gdc-java-8-jre:2fce51b
+FROM maven:3.5.2-jdk-8-alpine AS MAVEN_TOOL_CHAIN
+COPY spec/lcm/redshift_driver_pom.xml /tmp/pom.xml
+WORKDIR /tmp/
+RUN mvn clean install -P binary-packaging
+
+FROM harbor.intgdc.com/tools/gdc-java-8-jre:0dec94a
 
 ARG RVM_VERSION=stable
 ARG JRUBY_VERSION=9.2.5.0
@@ -52,17 +57,7 @@ ADD ./VERSION .
 ADD ./Gemfile .
 ADD ./gooddata.gemspec .
 
-#build redshift dependencies
-RUN mvn -f ci/redshift/pom.xml clean install -P binary-packaging
-RUN cp -rf ci/redshift/target/*.jar ./lib/gooddata/cloud_resources/redshift/drivers/
-
-#build snowflake dependencies
-RUN mvn -f ci/snowflake/pom.xml clean install -P binary-packaging
-RUN cp -rf ci/snowflake/target/*.jar ./lib/gooddata/cloud_resources/snowflake/drivers/
-
-#build bigquery dependencies
-RUN mvn -f ci/bigquery/pom.xml clean install -P binary-packaging
-RUN cp -rf ci/bigquery/target/*.jar ./lib/gooddata/cloud_resources/bigquery/drivers/
+COPY --from=MAVEN_TOOL_CHAIN /tmp/target/*.jar ./lib/gooddata/cloud_resources/redshift/drivers/
 
 RUN bundle install
 
