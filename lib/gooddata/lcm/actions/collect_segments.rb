@@ -33,6 +33,11 @@ module GoodData
 
       class << self
         def call(params)
+          sync_mode = params.fetch(:sync_mode, nil)
+          if sync_mode && %w[add_to_organization remove_from_organization].include?(sync_mode)
+            params.gdc_logger.info "Ignore CollectSegments for sync mode add_to_organization and remove_from_organization"
+            return nil
+          end
           data_product = params.data_product
           data_product_segments = data_product.segments
           segment_names = data_product_segments.map(&:segment_id)

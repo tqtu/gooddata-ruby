@@ -34,6 +34,11 @@ module GoodData
       class << self
         def call(params)
           params = params.to_hash
+          sync_mode = params.fetch(:sync_mode, nil)
+          if sync_mode && %w[add_to_organization remove_from_organization].include?(sync_mode)
+            params.gdc_logger.info "Ignore CollectDataProduct for sync mode add_to_organization and remove_from_organization"
+            return nil
+          end
           client = params.gdc_gd_client
           domain_name = params.organization || params.domain
           fail "Either organisation or domain has to be specified in params" unless domain_name
