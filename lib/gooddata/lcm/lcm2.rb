@@ -138,6 +138,7 @@ module GoodData
         EnsureTechnicalUsersDomain,
         EnsureTechnicalUsersProject,
         SynchronizeLdm,
+        SynchronizeDateDimension,
         SynchronizeClients,
         SynchronizeComputedAttributes,
         CollectDymanicScheduleParams,
