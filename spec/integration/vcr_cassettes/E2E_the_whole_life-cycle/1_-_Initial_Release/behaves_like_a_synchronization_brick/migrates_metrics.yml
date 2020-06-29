@@ -63,7 +63,7 @@ http_interactions:
         2","items":[{"reportItem":{"obj":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/384","sizeY":100,"sizeX":640,"visualization":{"grid":{"columnWidths":[]},"oneNumber":{"labels":{}}},"style":{"displayTitle":1,"background":{"opacity":0.0}},"positionY":0,"filters":[],"positionX":0}},{"reportItem":{"obj":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/386","sizeY":100,"sizeX":640,"visualization":{"grid":{"columnWidths":[]},"oneNumber":{"labels":{}}},"style":{"displayTitle":1,"background":{"opacity":0.0}},"positionY":150,"filters":[],"positionX":0}},{"reportItem":{"obj":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/396","sizeY":100,"sizeX":640,"visualization":{"grid":{"columnWidths":[]},"oneNumber":{"labels":{}}},"style":{"displayTitle":1,"background":{"opacity":0.0}},"positionY":0,"filters":[],"positionX":0}}]}],"filters":[]},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/398","tags":"dashboard","created":"2020-05-07
         15:15:22","identifier":"dashboard.dashboard.2","deprecated":"0","summary":"","isProduction":1,"title":"Dashboard
         2","category":"projectDashboard","updated":"2020-05-07 15:15:24","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}]}}'
-    http_version: null
+    http_version:
   recorded_at: Thu, 07 May 2020 13:26:03 GMT
 - request:
     method: get
@@ -122,7 +122,7 @@ http_interactions:
       string: '{"report":{"content":{"domains":[],"definitions":["/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/383"]},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/384","tags":"","created":"2020-05-07
         15:13:51","identifier":"report.customers.count.by.gender","deprecated":"0","summary":"","isProduction":1,"title":"Customers
         Count By Gender","category":"report","updated":"2020-05-07 15:13:53","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
-    http_version: null
+    http_version:
   recorded_at: Thu, 07 May 2020 13:26:04 GMT
 - request:
     method: get
@@ -181,7 +181,7 @@ http_interactions:
       string: '{"report":{"content":{"domains":[],"definitions":["/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/385"]},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/386","tags":"","created":"2020-05-07
         15:14:01","identifier":"report.customers.count.by.state","deprecated":"0","summary":"","isProduction":1,"title":"Customers
         Count By State","category":"report","updated":"2020-05-07 15:14:03","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
-    http_version: null
+    http_version:
   recorded_at: Thu, 07 May 2020 13:26:06 GMT
 - request:
     method: get
@@ -240,7 +240,7 @@ http_interactions:
       string: '{"report":{"content":{"domains":[],"definitions":["/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/395"]},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/396","tags":"","created":"2020-05-07
         15:14:47","identifier":"report.report.contains.ca","deprecated":"0","summary":"","isProduction":1,"title":"Report
         contains CA","category":"report","updated":"2020-05-07 15:14:49","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
-    http_version: null
+    http_version:
   recorded_at: Thu, 07 May 2020 13:26:07 GMT
 - request:
     method: get
@@ -299,7 +299,7 @@ http_interactions:
       string: '{"report":{"content":{"domains":[],"definitions":["/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/383"]},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/384","tags":"","created":"2020-05-07
         15:13:51","identifier":"report.customers.count.by.gender","deprecated":"0","summary":"","isProduction":1,"title":"Customers
         Count By Gender","category":"report","updated":"2020-05-07 15:13:53","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
-    http_version: null
+    http_version:
   recorded_at: Thu, 07 May 2020 13:26:08 GMT
 - request:
     method: get
@@ -358,7 +358,7 @@ http_interactions:
       string: '{"report":{"content":{"domains":[],"definitions":["/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/385"]},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/386","tags":"","created":"2020-05-07
         15:14:01","identifier":"report.customers.count.by.state","deprecated":"0","summary":"","isProduction":1,"title":"Customers
         Count By State","category":"report","updated":"2020-05-07 15:14:03","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
-    http_version: null
+    http_version:
   recorded_at: Thu, 07 May 2020 13:26:09 GMT
 - request:
     method: get
@@ -417,7 +417,7 @@ http_interactions:
       string: '{"report":{"content":{"domains":[],"definitions":["/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/395"]},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/396","tags":"","created":"2020-05-07
         15:14:47","identifier":"report.report.contains.ca","deprecated":"0","summary":"","isProduction":1,"title":"Report
         contains CA","category":"report","updated":"2020-05-07 15:14:49","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
-    http_version: null
+    http_version:
   recorded_at: Thu, 07 May 2020 13:26:10 GMT
 - request:
     method: get
@@ -476,7 +476,7 @@ http_interactions:
       string: '{"report":{"content":{"domains":[],"definitions":["/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/383"]},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/384","tags":"","created":"2020-05-07
         15:13:51","identifier":"report.customers.count.by.gender","deprecated":"0","summary":"","isProduction":1,"title":"Customers
         Count By Gender","category":"report","updated":"2020-05-07 15:13:53","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
-    http_version: null
+    http_version:
   recorded_at: Thu, 07 May 2020 13:26:11 GMT
 - request:
     method: get
@@ -535,7 +535,7 @@ http_interactions:
       string: '{"report":{"content":{"domains":[],"definitions":["/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/385"]},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/386","tags":"","created":"2020-05-07
         15:14:01","identifier":"report.customers.count.by.state","deprecated":"0","summary":"","isProduction":1,"title":"Customers
         Count By State","category":"report","updated":"2020-05-07 15:14:03","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
-    http_version: null
+    http_version:
   recorded_at: Thu, 07 May 2020 13:26:12 GMT
 - request:
     method: get
@@ -594,7 +594,7 @@ http_interactions:
       string: '{"report":{"content":{"domains":[],"definitions":["/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/395"]},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/396","tags":"","created":"2020-05-07
         15:14:47","identifier":"report.report.contains.ca","deprecated":"0","summary":"","isProduction":1,"title":"Report
         contains CA","category":"report","updated":"2020-05-07 15:14:49","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
-    http_version: null
+    http_version:
   recorded_at: Thu, 07 May 2020 13:26:13 GMT
 - request:
     method: get
@@ -653,7 +653,7 @@ http_interactions:
       string: '{"report":{"content":{"domains":[],"definitions":["/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/383"]},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/384","tags":"","created":"2020-05-07
         15:13:51","identifier":"report.customers.count.by.gender","deprecated":"0","summary":"","isProduction":1,"title":"Customers
         Count By Gender","category":"report","updated":"2020-05-07 15:13:53","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
-    http_version: null
+    http_version:
   recorded_at: Thu, 07 May 2020 13:26:14 GMT
 - request:
     method: get
@@ -712,7 +712,7 @@ http_interactions:
       string: '{"report":{"content":{"domains":[],"definitions":["/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/385"]},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/386","tags":"","created":"2020-05-07
         15:14:01","identifier":"report.customers.count.by.state","deprecated":"0","summary":"","isProduction":1,"title":"Customers
         Count By State","category":"report","updated":"2020-05-07 15:14:03","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
-    http_version: null
+    http_version:
   recorded_at: Thu, 07 May 2020 13:26:15 GMT
 - request:
     method: get
@@ -771,7 +771,7 @@ http_interactions:
       string: '{"report":{"content":{"domains":[],"definitions":["/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/395"]},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/396","tags":"","created":"2020-05-07
         15:14:47","identifier":"report.report.contains.ca","deprecated":"0","summary":"","isProduction":1,"title":"Report
         contains CA","category":"report","updated":"2020-05-07 15:14:49","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
-    http_version: null
+    http_version:
   recorded_at: Thu, 07 May 2020 13:26:16 GMT
 - request:
     method: get
@@ -831,7 +831,7 @@ http_interactions:
         Count","uri":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/369"}],"rows":["metricGroup"]},"format":"grid","filters":[]},"links":{"explain2":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/383/explain2"},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/383","tags":"","created":"2020-05-07
         15:13:49","identifier":"aahsIBLHgfkV","deprecated":"0","summary":"","isProduction":1,"title":"Untitled
         report definition","category":"reportDefinition","updated":"2020-05-07 15:13:49","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
-    http_version: null
+    http_version:
   recorded_at: Thu, 07 May 2020 13:26:17 GMT
 - request:
     method: get
@@ -891,7 +891,7 @@ http_interactions:
         Count","uri":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/369"}],"rows":["metricGroup"]},"format":"grid","filters":[]},"links":{"explain2":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/385/explain2"},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/385","tags":"","created":"2020-05-07
         15:13:59","identifier":"aacsLRoAhw2X","deprecated":"0","summary":"","isProduction":1,"title":"Untitled
         report definition","category":"reportDefinition","updated":"2020-05-07 15:13:59","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
-    http_version: null
+    http_version:
   recorded_at: Thu, 07 May 2020 13:26:18 GMT
 - request:
     method: get
@@ -950,7 +950,7 @@ http_interactions:
       string: '{"reportDefinition":{"content":{"grid":{"sort":{"columns":[],"rows":[]},"columnWidths":[],"columns":[],"metrics":[],"rows":[{"attribute":{"alias":"","totals":[],"uri":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/378"}}]},"format":"grid","filters":[]},"links":{"explain2":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/395/explain2"},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/395","tags":"","created":"2020-05-07
         15:14:45","identifier":"aahsLD80b2eu","deprecated":"0","summary":"","isProduction":1,"title":"Untitled
         report definition","category":"reportDefinition","updated":"2020-05-07 15:14:45","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
-    http_version: null
+    http_version:
   recorded_at: Thu, 07 May 2020 13:26:19 GMT
 - request:
     method: get
@@ -1011,7 +1011,7 @@ http_interactions:
         COUNT([/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/281])"},"links":{"explain2":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/369/explain2"},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/369","tags":"","created":"2020-05-07
         15:13:17","identifier":"metric.customers.count","deprecated":"0","summary":"","isProduction":1,"title":"Customers
         Count","category":"metric","updated":"2020-05-07 15:13:19","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
-    http_version: null
+    http_version:
   recorded_at: Thu, 07 May 2020 13:26:20 GMT
 - request:
     method: get
@@ -1072,7 +1072,7 @@ http_interactions:
         COUNT([/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/281])"},"links":{"explain2":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/369/explain2"},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/369","tags":"","created":"2020-05-07
         15:13:17","identifier":"metric.customers.count","deprecated":"0","summary":"","isProduction":1,"title":"Customers
         Count","category":"metric","updated":"2020-05-07 15:13:19","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
-    http_version: null
+    http_version:
   recorded_at: Thu, 07 May 2020 13:26:21 GMT
 - request:
     method: get
@@ -1181,7 +1181,7 @@ http_interactions:
         COUNT([/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/281])"},"links":{"explain2":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/369/explain2"},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/d1jibu5q4oaxutzx2gvh940i9c95domw/obj/369","tags":"","created":"2020-05-07
         15:13:17","identifier":"metric.customers.count","deprecated":"0","summary":"","isProduction":1,"title":"Customers
         Count","category":"metric","updated":"2020-05-07 15:13:19","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}]}}'
-    http_version: null
+    http_version:
   recorded_at: Thu, 07 May 2020 13:26:22 GMT
 - request:
     method: get
@@ -1246,7 +1246,7 @@ http_interactions:
         COUNT([/gdc/md/aa9kzlzod3nq7oj9zj6q2ixk021j1v3v/obj/287])"},"links":{"explain2":"/gdc/md/aa9kzlzod3nq7oj9zj6q2ixk021j1v3v/obj/355/explain2"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/aa9kzlzod3nq7oj9zj6q2ixk021j1v3v/obj/355","tags":"","created":"2020-05-07
         15:21:57","identifier":"metric.customers.count","deprecated":"0","summary":"","isProduction":1,"title":"Customers
         Count","category":"metric","updated":"2020-05-07 15:13:19","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}}]}}'
-    http_version: null
+    http_version:
   recorded_at: Thu, 07 May 2020 13:26:23 GMT
 - request:
     method: get
@@ -1311,6 +1311,1319 @@ http_interactions:
         COUNT([/gdc/md/m7meiy4mltkrfe0pim002b7vwwn05s4p/obj/290])"},"links":{"explain2":"/gdc/md/m7meiy4mltkrfe0pim002b7vwwn05s4p/obj/355/explain2"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/m7meiy4mltkrfe0pim002b7vwwn05s4p/obj/355","tags":"","created":"2020-05-07
         15:22:16","identifier":"metric.customers.count","deprecated":"0","summary":"","isProduction":1,"title":"Customers
         Count","category":"metric","updated":"2020-05-07 15:13:19","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}}]}}'
-    http_version: null
+    http_version:
   recorded_at: Thu, 07 May 2020 13:26:24 GMT
-recorded_with: VCR 5.1.0
+- request:
+    method: get
+    uri: https://staging2-lcm-dev.intgdc.com/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/objects/query?category=projectDashboard&limit=50&offset=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.12/x86_64-darwin19/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:He6ISewR_TttRmqPtejFJw"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-dev.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 29 Jun 2020 08:14:25 GMT
+      Server:
+      - GoodData WebApp
+      Keep-Alive:
+      - timeout=5, max=99
+      X-Gdc-Log-Header:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      X-Gdc-Request-Time:
+      - '29'
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:He6ISewR_TttRmqPtejFJw:GYa8YX2njsVLFeOs"
+      Vary:
+      - Accept-Encoding,origin,X-GDC-VERSION
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"objects":{"paging":{"count":2,"offset":0},"items":[{"projectDashboard":{"content":{"tabs":[{"identifier":"aaerHjdAfpOV","title":"Tab
+        1","items":[{"reportItem":{"obj":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/384","sizeY":100,"sizeX":640,"visualization":{"grid":{"columnWidths":[]},"oneNumber":{"labels":{}}},"style":{"displayTitle":1,"background":{"opacity":0.0}},"positionY":0,"filters":[],"positionX":0}},{"reportItem":{"obj":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/386","sizeY":100,"sizeX":640,"visualization":{"grid":{"columnWidths":[]},"oneNumber":{"labels":{}}},"style":{"displayTitle":1,"background":{"opacity":0.0}},"positionY":150,"filters":[],"positionX":0}},{"reportItem":{"obj":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/396","sizeY":100,"sizeX":640,"visualization":{"grid":{"columnWidths":[]},"oneNumber":{"labels":{}}},"style":{"displayTitle":1,"background":{"opacity":0.0}},"positionY":0,"filters":[],"positionX":0}}]},{"identifier":"aafrHjdAfpOV","title":"Tab
+        2","items":[{"reportItem":{"obj":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/384","sizeY":100,"sizeX":640,"visualization":{"grid":{"columnWidths":[]},"oneNumber":{"labels":{}}},"style":{"displayTitle":1,"background":{"opacity":0.0}},"positionY":0,"filters":[],"positionX":0}},{"reportItem":{"obj":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/386","sizeY":100,"sizeX":640,"visualization":{"grid":{"columnWidths":[]},"oneNumber":{"labels":{}}},"style":{"displayTitle":1,"background":{"opacity":0.0}},"positionY":150,"filters":[],"positionX":0}},{"reportItem":{"obj":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/396","sizeY":100,"sizeX":640,"visualization":{"grid":{"columnWidths":[]},"oneNumber":{"labels":{}}},"style":{"displayTitle":1,"background":{"opacity":0.0}},"positionY":0,"filters":[],"positionX":0}}]}],"filters":[]},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/397","tags":"dashboard","created":"2020-06-29
+        10:03:08","identifier":"dashboard.dashboard.1","deprecated":"0","summary":"","isProduction":1,"title":"Dashboard
+        1","category":"projectDashboard","updated":"2020-06-29 10:03:10","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}},{"projectDashboard":{"content":{"tabs":[{"identifier":"aahrHjdAfpOV","title":"Tab
+        1","items":[{"reportItem":{"obj":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/384","sizeY":100,"sizeX":640,"visualization":{"grid":{"columnWidths":[]},"oneNumber":{"labels":{}}},"style":{"displayTitle":1,"background":{"opacity":0.0}},"positionY":0,"filters":[],"positionX":0}},{"reportItem":{"obj":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/386","sizeY":100,"sizeX":640,"visualization":{"grid":{"columnWidths":[]},"oneNumber":{"labels":{}}},"style":{"displayTitle":1,"background":{"opacity":0.0}},"positionY":150,"filters":[],"positionX":0}},{"reportItem":{"obj":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/396","sizeY":100,"sizeX":640,"visualization":{"grid":{"columnWidths":[]},"oneNumber":{"labels":{}}},"style":{"displayTitle":1,"background":{"opacity":0.0}},"positionY":0,"filters":[],"positionX":0}}]},{"identifier":"aairHjdAfpOV","title":"Tab
+        2","items":[{"reportItem":{"obj":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/384","sizeY":100,"sizeX":640,"visualization":{"grid":{"columnWidths":[]},"oneNumber":{"labels":{}}},"style":{"displayTitle":1,"background":{"opacity":0.0}},"positionY":0,"filters":[],"positionX":0}},{"reportItem":{"obj":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/386","sizeY":100,"sizeX":640,"visualization":{"grid":{"columnWidths":[]},"oneNumber":{"labels":{}}},"style":{"displayTitle":1,"background":{"opacity":0.0}},"positionY":150,"filters":[],"positionX":0}},{"reportItem":{"obj":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/396","sizeY":100,"sizeX":640,"visualization":{"grid":{"columnWidths":[]},"oneNumber":{"labels":{}}},"style":{"displayTitle":1,"background":{"opacity":0.0}},"positionY":0,"filters":[],"positionX":0}}]}],"filters":[]},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/398","tags":"dashboard","created":"2020-06-29
+        10:03:27","identifier":"dashboard.dashboard.2","deprecated":"0","summary":"","isProduction":1,"title":"Dashboard
+        2","category":"projectDashboard","updated":"2020-06-29 10:03:29","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}]}}'
+    http_version:
+  recorded_at: Mon, 29 Jun 2020 08:14:25 GMT
+- request:
+    method: get
+    uri: https://staging2-lcm-dev.intgdc.com/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/384
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.12/x86_64-darwin19/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:_CQ_Wf-fJYRhsXJDofC4Hg"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-dev.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 29 Jun 2020 08:14:26 GMT
+      Server:
+      - GoodData WebApp
+      Keep-Alive:
+      - timeout=5, max=98
+      X-Gdc-Log-Header:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Gdc-Request-Time:
+      - '40'
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:_CQ_Wf-fJYRhsXJDofC4Hg:bjgwP17gM7IjpT1N"
+      Vary:
+      - origin,X-GDC-VERSION
+      Transfer-Encoding:
+      - chunked
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"report":{"content":{"domains":[],"definitions":["/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/383"]},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/384","tags":"","created":"2020-06-29
+        10:01:50","identifier":"report.customers.count.by.gender","deprecated":"0","summary":"","isProduction":1,"title":"Customers
+        Count By Gender","category":"report","updated":"2020-06-29 10:01:52","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
+    http_version:
+  recorded_at: Mon, 29 Jun 2020 08:14:26 GMT
+- request:
+    method: get
+    uri: https://staging2-lcm-dev.intgdc.com/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/386
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.12/x86_64-darwin19/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:ajIxkdScx0Qm1D9_6CzjUQ"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-dev.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 29 Jun 2020 08:14:27 GMT
+      Server:
+      - GoodData WebApp
+      Keep-Alive:
+      - timeout=5, max=99
+      X-Gdc-Log-Header:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Gdc-Request-Time:
+      - '20'
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:ajIxkdScx0Qm1D9_6CzjUQ:5RcTB4Xys0kRbdhP"
+      Vary:
+      - origin,X-GDC-VERSION
+      Transfer-Encoding:
+      - chunked
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"report":{"content":{"domains":[],"definitions":["/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/385"]},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/386","tags":"","created":"2020-06-29
+        10:02:00","identifier":"report.customers.count.by.state","deprecated":"0","summary":"","isProduction":1,"title":"Customers
+        Count By State","category":"report","updated":"2020-06-29 10:02:02","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
+    http_version:
+  recorded_at: Mon, 29 Jun 2020 08:14:28 GMT
+- request:
+    method: get
+    uri: https://staging2-lcm-dev.intgdc.com/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/396
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.12/x86_64-darwin19/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:dv2DoiGH0AbwcYBHsaUEWg"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-dev.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 29 Jun 2020 08:14:28 GMT
+      Server:
+      - GoodData WebApp
+      Keep-Alive:
+      - timeout=5, max=97
+      X-Gdc-Log-Header:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Gdc-Request-Time:
+      - '21'
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:dv2DoiGH0AbwcYBHsaUEWg:fG93Oz641Hn2zwJf"
+      Vary:
+      - origin,X-GDC-VERSION
+      Transfer-Encoding:
+      - chunked
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"report":{"content":{"domains":[],"definitions":["/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/395"]},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/396","tags":"","created":"2020-06-29
+        10:02:49","identifier":"report.report.contains.ca","deprecated":"0","summary":"","isProduction":1,"title":"Report
+        contains CA","category":"report","updated":"2020-06-29 10:02:51","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
+    http_version:
+  recorded_at: Mon, 29 Jun 2020 08:14:28 GMT
+- request:
+    method: get
+    uri: https://staging2-lcm-dev.intgdc.com/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/384
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.12/x86_64-darwin19/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:qZLQjrjEPwY02EtmDWmYNw"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-dev.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 29 Jun 2020 08:14:29 GMT
+      Server:
+      - GoodData WebApp
+      Keep-Alive:
+      - timeout=5, max=99
+      X-Gdc-Log-Header:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Gdc-Request-Time:
+      - '24'
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:qZLQjrjEPwY02EtmDWmYNw:deLH9AAHD1hKlTAD"
+      Vary:
+      - origin,X-GDC-VERSION
+      Transfer-Encoding:
+      - chunked
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"report":{"content":{"domains":[],"definitions":["/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/383"]},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/384","tags":"","created":"2020-06-29
+        10:01:50","identifier":"report.customers.count.by.gender","deprecated":"0","summary":"","isProduction":1,"title":"Customers
+        Count By Gender","category":"report","updated":"2020-06-29 10:01:52","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
+    http_version:
+  recorded_at: Mon, 29 Jun 2020 08:14:29 GMT
+- request:
+    method: get
+    uri: https://staging2-lcm-dev.intgdc.com/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/386
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.12/x86_64-darwin19/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:wDrdSjZbUNedfeeyFtldIg"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-dev.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 29 Jun 2020 08:14:30 GMT
+      Server:
+      - GoodData WebApp
+      Keep-Alive:
+      - timeout=5, max=96
+      X-Gdc-Log-Header:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Gdc-Request-Time:
+      - '22'
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:wDrdSjZbUNedfeeyFtldIg:twn5Pqo6Isba58hw"
+      Vary:
+      - origin,X-GDC-VERSION
+      Transfer-Encoding:
+      - chunked
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"report":{"content":{"domains":[],"definitions":["/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/385"]},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/386","tags":"","created":"2020-06-29
+        10:02:00","identifier":"report.customers.count.by.state","deprecated":"0","summary":"","isProduction":1,"title":"Customers
+        Count By State","category":"report","updated":"2020-06-29 10:02:02","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
+    http_version:
+  recorded_at: Mon, 29 Jun 2020 08:14:30 GMT
+- request:
+    method: get
+    uri: https://staging2-lcm-dev.intgdc.com/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/396
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.12/x86_64-darwin19/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:E2a6W4lH5OWcU3fjKQbGmg"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-dev.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 29 Jun 2020 08:14:31 GMT
+      Server:
+      - GoodData WebApp
+      Keep-Alive:
+      - timeout=5, max=100
+      X-Gdc-Log-Header:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Gdc-Request-Time:
+      - '25'
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:E2a6W4lH5OWcU3fjKQbGmg:RwM63yBzHMR3HWYx"
+      Vary:
+      - origin,X-GDC-VERSION
+      Transfer-Encoding:
+      - chunked
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"report":{"content":{"domains":[],"definitions":["/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/395"]},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/396","tags":"","created":"2020-06-29
+        10:02:49","identifier":"report.report.contains.ca","deprecated":"0","summary":"","isProduction":1,"title":"Report
+        contains CA","category":"report","updated":"2020-06-29 10:02:51","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
+    http_version:
+  recorded_at: Mon, 29 Jun 2020 08:14:31 GMT
+- request:
+    method: get
+    uri: https://staging2-lcm-dev.intgdc.com/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/384
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.12/x86_64-darwin19/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:vMAVxao4kLaN0KuVL9N8ow"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-dev.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 29 Jun 2020 08:14:32 GMT
+      Server:
+      - GoodData WebApp
+      Keep-Alive:
+      - timeout=5, max=98
+      X-Gdc-Log-Header:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Gdc-Request-Time:
+      - '21'
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:vMAVxao4kLaN0KuVL9N8ow:no3XFfSYKyf3hjLB"
+      Vary:
+      - origin,X-GDC-VERSION
+      Transfer-Encoding:
+      - chunked
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"report":{"content":{"domains":[],"definitions":["/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/383"]},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/384","tags":"","created":"2020-06-29
+        10:01:50","identifier":"report.customers.count.by.gender","deprecated":"0","summary":"","isProduction":1,"title":"Customers
+        Count By Gender","category":"report","updated":"2020-06-29 10:01:52","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
+    http_version:
+  recorded_at: Mon, 29 Jun 2020 08:14:32 GMT
+- request:
+    method: get
+    uri: https://staging2-lcm-dev.intgdc.com/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/386
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.12/x86_64-darwin19/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:ivtZvWH45B-_y1YislsVKw"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-dev.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 29 Jun 2020 08:14:33 GMT
+      Server:
+      - GoodData WebApp
+      Keep-Alive:
+      - timeout=5, max=100
+      X-Gdc-Log-Header:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Gdc-Request-Time:
+      - '24'
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:ivtZvWH45B-_y1YislsVKw:dYS8JJycaoOfKurf"
+      Vary:
+      - origin,X-GDC-VERSION
+      Transfer-Encoding:
+      - chunked
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"report":{"content":{"domains":[],"definitions":["/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/385"]},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/386","tags":"","created":"2020-06-29
+        10:02:00","identifier":"report.customers.count.by.state","deprecated":"0","summary":"","isProduction":1,"title":"Customers
+        Count By State","category":"report","updated":"2020-06-29 10:02:02","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
+    http_version:
+  recorded_at: Mon, 29 Jun 2020 08:14:33 GMT
+- request:
+    method: get
+    uri: https://staging2-lcm-dev.intgdc.com/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/396
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.12/x86_64-darwin19/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:iYVZES1yTDm59N0oury1Ng"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-dev.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 29 Jun 2020 08:14:34 GMT
+      Server:
+      - GoodData WebApp
+      Keep-Alive:
+      - timeout=5, max=100
+      X-Gdc-Log-Header:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Gdc-Request-Time:
+      - '32'
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:iYVZES1yTDm59N0oury1Ng:1D4XZL8lBNHYF0jX"
+      Vary:
+      - origin,X-GDC-VERSION
+      Transfer-Encoding:
+      - chunked
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"report":{"content":{"domains":[],"definitions":["/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/395"]},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/396","tags":"","created":"2020-06-29
+        10:02:49","identifier":"report.report.contains.ca","deprecated":"0","summary":"","isProduction":1,"title":"Report
+        contains CA","category":"report","updated":"2020-06-29 10:02:51","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
+    http_version:
+  recorded_at: Mon, 29 Jun 2020 08:14:34 GMT
+- request:
+    method: get
+    uri: https://staging2-lcm-dev.intgdc.com/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/384
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.12/x86_64-darwin19/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:o2vV2PqBu7bt9kQNJ-dDmw"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-dev.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 29 Jun 2020 08:14:35 GMT
+      Server:
+      - GoodData WebApp
+      Keep-Alive:
+      - timeout=5, max=96
+      X-Gdc-Log-Header:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Gdc-Request-Time:
+      - '27'
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:o2vV2PqBu7bt9kQNJ-dDmw:JrVieJYESdwnZVLY"
+      Vary:
+      - origin,X-GDC-VERSION
+      Transfer-Encoding:
+      - chunked
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"report":{"content":{"domains":[],"definitions":["/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/383"]},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/384","tags":"","created":"2020-06-29
+        10:01:50","identifier":"report.customers.count.by.gender","deprecated":"0","summary":"","isProduction":1,"title":"Customers
+        Count By Gender","category":"report","updated":"2020-06-29 10:01:52","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
+    http_version:
+  recorded_at: Mon, 29 Jun 2020 08:14:36 GMT
+- request:
+    method: get
+    uri: https://staging2-lcm-dev.intgdc.com/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/386
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.12/x86_64-darwin19/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:ua31PxEpP6SxzWN9cgLb_A"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-dev.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 29 Jun 2020 08:14:36 GMT
+      Server:
+      - GoodData WebApp
+      Keep-Alive:
+      - timeout=5, max=100
+      X-Gdc-Log-Header:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Gdc-Request-Time:
+      - '23'
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:ua31PxEpP6SxzWN9cgLb_A:LnxhJW6fOpMQMFNG"
+      Vary:
+      - origin,X-GDC-VERSION
+      Transfer-Encoding:
+      - chunked
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"report":{"content":{"domains":[],"definitions":["/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/385"]},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/386","tags":"","created":"2020-06-29
+        10:02:00","identifier":"report.customers.count.by.state","deprecated":"0","summary":"","isProduction":1,"title":"Customers
+        Count By State","category":"report","updated":"2020-06-29 10:02:02","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
+    http_version:
+  recorded_at: Mon, 29 Jun 2020 08:14:37 GMT
+- request:
+    method: get
+    uri: https://staging2-lcm-dev.intgdc.com/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/396
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.12/x86_64-darwin19/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:e4NtSVl2hSmSflstM8BAXA"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-dev.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 29 Jun 2020 08:14:37 GMT
+      Server:
+      - GoodData WebApp
+      Keep-Alive:
+      - timeout=5, max=100
+      X-Gdc-Log-Header:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Gdc-Request-Time:
+      - '23'
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:e4NtSVl2hSmSflstM8BAXA:VnQXzC9rmXy6j8Vn"
+      Vary:
+      - origin,X-GDC-VERSION
+      Transfer-Encoding:
+      - chunked
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"report":{"content":{"domains":[],"definitions":["/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/395"]},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/396","tags":"","created":"2020-06-29
+        10:02:49","identifier":"report.report.contains.ca","deprecated":"0","summary":"","isProduction":1,"title":"Report
+        contains CA","category":"report","updated":"2020-06-29 10:02:51","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
+    http_version:
+  recorded_at: Mon, 29 Jun 2020 08:14:38 GMT
+- request:
+    method: get
+    uri: https://staging2-lcm-dev.intgdc.com/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/383
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.12/x86_64-darwin19/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:rhibdrdQpoQE2OK9mjpF1Q"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-dev.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 29 Jun 2020 08:14:39 GMT
+      Server:
+      - GoodData WebApp
+      Keep-Alive:
+      - timeout=5, max=100
+      X-Gdc-Log-Header:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Gdc-Request-Time:
+      - '29'
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:rhibdrdQpoQE2OK9mjpF1Q:1683VbDCg5KE0h9u"
+      Vary:
+      - origin,X-GDC-VERSION
+      Transfer-Encoding:
+      - chunked
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"reportDefinition":{"content":{"grid":{"sort":{"columns":[],"rows":[]},"columnWidths":[],"columns":[{"attribute":{"alias":"","totals":[[]],"uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/293"}}],"metrics":[{"alias":"Customers
+        Count","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/369"}],"rows":["metricGroup"]},"format":"grid","filters":[]},"links":{"explain2":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/383/explain2"},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/383","tags":"","created":"2020-06-29
+        10:01:47","identifier":"aahrGWnSaS0P","deprecated":"0","summary":"","isProduction":1,"title":"Untitled
+        report definition","category":"reportDefinition","updated":"2020-06-29 10:01:47","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
+    http_version:
+  recorded_at: Mon, 29 Jun 2020 08:14:39 GMT
+- request:
+    method: get
+    uri: https://staging2-lcm-dev.intgdc.com/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/385
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.12/x86_64-darwin19/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:tXw1MxUEq6rN7jdDSkoZAw"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-dev.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 29 Jun 2020 08:14:40 GMT
+      Server:
+      - GoodData WebApp
+      Keep-Alive:
+      - timeout=5, max=99
+      X-Gdc-Log-Header:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Gdc-Request-Time:
+      - '26'
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:tXw1MxUEq6rN7jdDSkoZAw:tQkQhaCjIM9VHoVO"
+      Vary:
+      - origin,X-GDC-VERSION
+      Transfer-Encoding:
+      - chunked
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"reportDefinition":{"content":{"grid":{"sort":{"columns":[],"rows":[]},"columnWidths":[],"columns":[{"attribute":{"alias":"","totals":[[]],"uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/285"}}],"metrics":[{"alias":"Customers
+        Count","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/369"}],"rows":["metricGroup"]},"format":"grid","filters":[]},"links":{"explain2":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/385/explain2"},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/385","tags":"","created":"2020-06-29
+        10:01:58","identifier":"aagrG0MqeXwH","deprecated":"0","summary":"","isProduction":1,"title":"Untitled
+        report definition","category":"reportDefinition","updated":"2020-06-29 10:01:58","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
+    http_version:
+  recorded_at: Mon, 29 Jun 2020 08:14:40 GMT
+- request:
+    method: get
+    uri: https://staging2-lcm-dev.intgdc.com/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/395
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.12/x86_64-darwin19/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:ymoQKG21Mqhl3pxsBaeXlQ"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-dev.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 29 Jun 2020 08:14:41 GMT
+      Server:
+      - GoodData WebApp
+      Keep-Alive:
+      - timeout=5, max=100
+      X-Gdc-Log-Header:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Gdc-Request-Time:
+      - '22'
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:ymoQKG21Mqhl3pxsBaeXlQ:CEu82QfBPLBX0wLC"
+      Vary:
+      - origin,X-GDC-VERSION
+      Transfer-Encoding:
+      - chunked
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"reportDefinition":{"content":{"grid":{"sort":{"columns":[],"rows":[]},"columnWidths":[],"columns":[],"metrics":[],"rows":[{"attribute":{"alias":"","totals":[],"uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/378"}}]},"format":"grid","filters":[]},"links":{"explain2":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/395/explain2"},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/395","tags":"","created":"2020-06-29
+        10:02:47","identifier":"aaerImnpbdHa","deprecated":"0","summary":"","isProduction":1,"title":"Untitled
+        report definition","category":"reportDefinition","updated":"2020-06-29 10:02:47","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
+    http_version:
+  recorded_at: Mon, 29 Jun 2020 08:14:41 GMT
+- request:
+    method: get
+    uri: https://staging2-lcm-dev.intgdc.com/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/369
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.12/x86_64-darwin19/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:C-5Ag5cCLsM3TE_FxF-ZbQ"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-dev.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 29 Jun 2020 08:14:42 GMT
+      Server:
+      - GoodData WebApp
+      Keep-Alive:
+      - timeout=5, max=100
+      X-Gdc-Log-Header:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Gdc-Request-Time:
+      - '22'
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:C-5Ag5cCLsM3TE_FxF-ZbQ:D4Yqj1d7LEIvRrTX"
+      Vary:
+      - origin,X-GDC-VERSION
+      Transfer-Encoding:
+      - chunked
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"metric":{"content":{"format":"#,##0","tree":{"content":[{"content":[{"value":"COUNT","content":[{"value":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/281","position":{"column":27,"line":1},"type":"attribute
+        object"}],"position":{"column":21,"line":1},"type":"function"}],"position":{"column":21,"line":1},"type":"expression"}],"position":{"column":14,"line":1},"type":"metric"},"expression":"SELECT
+        COUNT([/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/281])"},"links":{"explain2":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/369/explain2"},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/369","tags":"","created":"2020-06-29
+        10:01:12","identifier":"metric.customers.count","deprecated":"0","summary":"","isProduction":1,"title":"Customers
+        Count","category":"metric","updated":"2020-06-29 10:01:14","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
+    http_version:
+  recorded_at: Mon, 29 Jun 2020 08:14:43 GMT
+- request:
+    method: get
+    uri: https://staging2-lcm-dev.intgdc.com/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/369
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.12/x86_64-darwin19/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:Cx0FfBkiQmRa0nZ_J3Lqgg"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-dev.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 29 Jun 2020 08:14:43 GMT
+      Server:
+      - GoodData WebApp
+      Keep-Alive:
+      - timeout=5, max=100
+      X-Gdc-Log-Header:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Gdc-Request-Time:
+      - '25'
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:Cx0FfBkiQmRa0nZ_J3Lqgg:YFWfoj6GDNYbW0am"
+      Vary:
+      - origin,X-GDC-VERSION
+      Transfer-Encoding:
+      - chunked
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"metric":{"content":{"format":"#,##0","tree":{"content":[{"content":[{"value":"COUNT","content":[{"value":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/281","position":{"column":27,"line":1},"type":"attribute
+        object"}],"position":{"column":21,"line":1},"type":"function"}],"position":{"column":21,"line":1},"type":"expression"}],"position":{"column":14,"line":1},"type":"metric"},"expression":"SELECT
+        COUNT([/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/281])"},"links":{"explain2":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/369/explain2"},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/369","tags":"","created":"2020-06-29
+        10:01:12","identifier":"metric.customers.count","deprecated":"0","summary":"","isProduction":1,"title":"Customers
+        Count","category":"metric","updated":"2020-06-29 10:01:14","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}'
+    http_version:
+  recorded_at: Mon, 29 Jun 2020 08:14:44 GMT
+- request:
+    method: get
+    uri: https://staging2-lcm-dev.intgdc.com/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/objects/query?category=metric&limit=50&offset=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.12/x86_64-darwin19/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:mL6wvFWSpJ7LcEHsARb61g"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-dev.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 29 Jun 2020 08:14:44 GMT
+      Server:
+      - GoodData WebApp
+      Keep-Alive:
+      - timeout=5, max=100
+      X-Gdc-Log-Header:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      X-Gdc-Request-Time:
+      - '80'
+      X-Gdc-Request:
+      - ":ml0iq8AU2NNyQyuVQA3iNw:mL6wvFWSpJ7LcEHsARb61g:0BBtxatbv0sYEChV"
+      Vary:
+      - Accept-Encoding,origin,X-GDC-VERSION
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"objects":{"paging":{"count":13,"offset":0},"items":[{"metric":{"content":{"format":"#,##0","tree":{"content":[{"content":[{"value":"SUM","content":[{"value":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/310","position":{"column":25,"line":1},"type":"fact
+        object"}],"position":{"column":21,"line":1},"type":"function"}],"position":{"column":21,"line":1},"type":"expression"}],"position":{"column":14,"line":1},"type":"metric"},"expression":"SELECT
+        SUM([/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/310])"},"links":{"explain2":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/357/explain2"},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/357","tags":"","created":"2020-06-29
+        09:59:25","identifier":"metric.total.claim.amount","deprecated":"0","summary":"","isProduction":1,"title":"Total
+        Claim Amount","category":"metric","updated":"2020-06-29 09:59:27","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}},{"metric":{"content":{"format":"#,##0","tree":{"content":[{"content":[{"value":"SUM","content":[{"value":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/309","position":{"column":25,"line":1},"type":"fact
+        object"}],"position":{"column":21,"line":1},"type":"function"}],"position":{"column":21,"line":1},"type":"expression"}],"position":{"column":14,"line":1},"type":"metric"},"expression":"SELECT
+        SUM([/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/309])"},"links":{"explain2":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/358/explain2"},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/358","tags":"","created":"2020-06-29
+        09:59:33","identifier":"metric.total.monthly.premium","deprecated":"0","summary":"","isProduction":1,"title":"Total
+        Monthly Premium","category":"metric","updated":"2020-06-29 09:59:35","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}},{"metric":{"content":{"format":"#,##0","tree":{"content":[{"content":[{"value":"SUM","content":[{"value":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/307","position":{"column":25,"line":1},"type":"fact
+        object"}],"position":{"column":21,"line":1},"type":"function"}],"position":{"column":21,"line":1},"type":"expression"}],"position":{"column":14,"line":1},"type":"metric"},"expression":"SELECT
+        SUM([/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/307])"},"links":{"explain2":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/359/explain2"},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/359","tags":"","created":"2020-06-29
+        09:59:42","identifier":"metric.total.lifetime.value","deprecated":"0","summary":"","isProduction":1,"title":"Total
+        Lifetime Value","category":"metric","updated":"2020-06-29 09:59:44","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}},{"metric":{"content":{"format":"#,##0","tree":{"content":[{"content":[{"value":"AVG","content":[{"value":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/310","position":{"column":25,"line":1},"type":"fact
+        object"}],"position":{"column":21,"line":1},"type":"function"}],"position":{"column":21,"line":1},"type":"expression"}],"position":{"column":14,"line":1},"type":"metric"},"expression":"SELECT
+        AVG([/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/310])"},"links":{"explain2":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/360/explain2"},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/360","tags":"","created":"2020-06-29
+        09:59:50","identifier":"metric.average.claim.amount","deprecated":"0","summary":"","isProduction":1,"title":"Average
+        Claim Amount","category":"metric","updated":"2020-06-29 09:59:52","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}},{"metric":{"content":{"format":"#,##0","tree":{"content":[{"content":[{"value":"AVG","content":[{"value":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/309","position":{"column":25,"line":1},"type":"fact
+        object"}],"position":{"column":21,"line":1},"type":"function"}],"position":{"column":21,"line":1},"type":"expression"}],"position":{"column":14,"line":1},"type":"metric"},"expression":"SELECT
+        AVG([/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/309])"},"links":{"explain2":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/361/explain2"},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/361","tags":"","created":"2020-06-29
+        09:59:59","identifier":"metric.average.monthly.premium","deprecated":"0","summary":"","isProduction":1,"title":"Average
+        Monthly Premium","category":"metric","updated":"2020-06-29 10:00:01","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}},{"metric":{"content":{"format":"#,##0","tree":{"content":[{"content":[{"value":"AVG","content":[{"value":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/307","position":{"column":25,"line":1},"type":"fact
+        object"}],"position":{"column":21,"line":1},"type":"function"}],"position":{"column":21,"line":1},"type":"expression"}],"position":{"column":14,"line":1},"type":"metric"},"expression":"SELECT
+        AVG([/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/307])"},"links":{"explain2":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/362/explain2"},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/362","tags":"","created":"2020-06-29
+        10:00:09","identifier":"metric.average.lifetime.value","deprecated":"0","summary":"","isProduction":1,"title":"Average
+        Lifetime Value","category":"metric","updated":"2020-06-29 10:00:11","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}},{"metric":{"content":{"format":"#,##0","tree":{"content":[{"content":[{"value":"MIN","content":[{"value":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/310","position":{"column":25,"line":1},"type":"fact
+        object"}],"position":{"column":21,"line":1},"type":"function"}],"position":{"column":21,"line":1},"type":"expression"}],"position":{"column":14,"line":1},"type":"metric"},"expression":"SELECT
+        MIN([/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/310])"},"links":{"explain2":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/363/explain2"},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/363","tags":"","created":"2020-06-29
+        10:00:18","identifier":"metric.min.claim.amount","deprecated":"0","summary":"","isProduction":1,"title":"Min
+        Claim Amount","category":"metric","updated":"2020-06-29 10:00:20","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}},{"metric":{"content":{"format":"#,##0","tree":{"content":[{"content":[{"value":"MIN","content":[{"value":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/309","position":{"column":25,"line":1},"type":"fact
+        object"}],"position":{"column":21,"line":1},"type":"function"}],"position":{"column":21,"line":1},"type":"expression"}],"position":{"column":14,"line":1},"type":"metric"},"expression":"SELECT
+        MIN([/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/309])"},"links":{"explain2":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/364/explain2"},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/364","tags":"","created":"2020-06-29
+        10:00:26","identifier":"metric.min.monthly.premium","deprecated":"0","summary":"","isProduction":1,"title":"Min
+        Monthly Premium","category":"metric","updated":"2020-06-29 10:00:29","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}},{"metric":{"content":{"format":"#,##0","tree":{"content":[{"content":[{"value":"MIN","content":[{"value":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/307","position":{"column":25,"line":1},"type":"fact
+        object"}],"position":{"column":21,"line":1},"type":"function"}],"position":{"column":21,"line":1},"type":"expression"}],"position":{"column":14,"line":1},"type":"metric"},"expression":"SELECT
+        MIN([/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/307])"},"links":{"explain2":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/365/explain2"},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/365","tags":"","created":"2020-06-29
+        10:00:36","identifier":"metric.min.lifetime.value","deprecated":"0","summary":"","isProduction":1,"title":"Min
+        Lifetime Value","category":"metric","updated":"2020-06-29 10:00:38","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}},{"metric":{"content":{"format":"#,##0","tree":{"content":[{"content":[{"value":"MAX","content":[{"value":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/310","position":{"column":25,"line":1},"type":"fact
+        object"}],"position":{"column":21,"line":1},"type":"function"}],"position":{"column":21,"line":1},"type":"expression"}],"position":{"column":14,"line":1},"type":"metric"},"expression":"SELECT
+        MAX([/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/310])"},"links":{"explain2":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/366/explain2"},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/366","tags":"metric","created":"2020-06-29
+        10:00:46","identifier":"metric.max.claim.amount","deprecated":"0","summary":"","isProduction":1,"title":"Max
+        Claim Amount","category":"metric","updated":"2020-06-29 10:00:48","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}},{"metric":{"content":{"format":"#,##0","tree":{"content":[{"content":[{"value":"MAX","content":[{"value":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/309","position":{"column":25,"line":1},"type":"fact
+        object"}],"position":{"column":21,"line":1},"type":"function"}],"position":{"column":21,"line":1},"type":"expression"}],"position":{"column":14,"line":1},"type":"metric"},"expression":"SELECT
+        MAX([/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/309])"},"links":{"explain2":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/367/explain2"},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/367","tags":"","created":"2020-06-29
+        10:00:54","identifier":"metric.max.monthly.premium","deprecated":"0","summary":"","isProduction":1,"title":"Max
+        Monthly Premium","category":"metric","updated":"2020-06-29 10:00:56","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}},{"metric":{"content":{"format":"#,##0","tree":{"content":[{"content":[{"value":"MAX","content":[{"value":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/307","position":{"column":25,"line":1},"type":"fact
+        object"}],"position":{"column":21,"line":1},"type":"function"}],"position":{"column":21,"line":1},"type":"expression"}],"position":{"column":14,"line":1},"type":"metric"},"expression":"SELECT
+        MAX([/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/307])"},"links":{"explain2":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/368/explain2"},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/368","tags":"","created":"2020-06-29
+        10:01:03","identifier":"metric.max.lifetime.value","deprecated":"0","summary":"","isProduction":1,"title":"Max
+        Lifetime Value","category":"metric","updated":"2020-06-29 10:01:06","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}},{"metric":{"content":{"format":"#,##0","tree":{"content":[{"content":[{"value":"COUNT","content":[{"value":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/281","position":{"column":27,"line":1},"type":"attribute
+        object"}],"position":{"column":21,"line":1},"type":"function"}],"position":{"column":21,"line":1},"type":"expression"}],"position":{"column":14,"line":1},"type":"metric"},"expression":"SELECT
+        COUNT([/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/281])"},"links":{"explain2":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/369/explain2"},"meta":{"author":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0","uri":"/gdc/md/uvios3npjiw7exldjfoliwwrxnb4m6j9/obj/369","tags":"","created":"2020-06-29
+        10:01:12","identifier":"metric.customers.count","deprecated":"0","summary":"","isProduction":1,"title":"Customers
+        Count","category":"metric","updated":"2020-06-29 10:01:14","contributor":"/gdc/account/profile/ef00d74950b4291e8567b4bcbdfed9a0"}}}]}}'
+    http_version:
+  recorded_at: Mon, 29 Jun 2020 08:14:45 GMT
+- request:
+    method: get
+    uri: https://staging2-lcm-prod.intgdc.com/gdc/md/srz3n8n91tmzpbom14p9m5ei6agr0be9/objects/query?category=metric&limit=50&offset=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.12/x86_64-darwin19/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":VvyoM3RL1a39zR6WiU6kRA:SJ9COmlJk7kByJb-ykutgg"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-prod.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 29 Jun 2020 08:14:45 GMT
+      Server:
+      - GoodData WebApp
+      Keep-Alive:
+      - timeout=5, max=100
+      X-Gdc-Log-Header:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      X-Gdc-Request-Time:
+      - '26'
+      X-Gdc-Request:
+      - ":VvyoM3RL1a39zR6WiU6kRA:SJ9COmlJk7kByJb-ykutgg:5C6cUB71ek7NcS2d"
+      Vary:
+      - Accept-Encoding,origin,X-GDC-VERSION
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"objects":{"paging":{"count":2,"offset":0},"items":[{"metric":{"content":{"format":"#,##0","tree":{"content":[{"content":[{"value":"MAX","content":[{"value":"/gdc/md/srz3n8n91tmzpbom14p9m5ei6agr0be9/obj/319","position":{"column":25,"line":1},"type":"fact
+        object"}],"position":{"column":21,"line":1},"type":"function"}],"position":{"column":21,"line":1},"type":"expression"}],"position":{"column":14,"line":1},"type":"metric"},"expression":"SELECT
+        MAX([/gdc/md/srz3n8n91tmzpbom14p9m5ei6agr0be9/obj/319])"},"links":{"explain2":"/gdc/md/srz3n8n91tmzpbom14p9m5ei6agr0be9/obj/354/explain2"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/srz3n8n91tmzpbom14p9m5ei6agr0be9/obj/354","tags":"metric","created":"2020-06-29
+        10:10:05","identifier":"metric.max.claim.amount","deprecated":"0","summary":"","isProduction":1,"title":"Max
+        Claim Amount","category":"metric","updated":"2020-06-29 10:00:48","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"metric":{"content":{"format":"#,##0","tree":{"content":[{"content":[{"value":"COUNT","content":[{"value":"/gdc/md/srz3n8n91tmzpbom14p9m5ei6agr0be9/obj/290","position":{"column":27,"line":1},"type":"attribute
+        object"}],"position":{"column":21,"line":1},"type":"function"}],"position":{"column":21,"line":1},"type":"expression"}],"position":{"column":14,"line":1},"type":"metric"},"expression":"SELECT
+        COUNT([/gdc/md/srz3n8n91tmzpbom14p9m5ei6agr0be9/obj/290])"},"links":{"explain2":"/gdc/md/srz3n8n91tmzpbom14p9m5ei6agr0be9/obj/355/explain2"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/srz3n8n91tmzpbom14p9m5ei6agr0be9/obj/355","tags":"","created":"2020-06-29
+        10:10:05","identifier":"metric.customers.count","deprecated":"0","summary":"","isProduction":1,"title":"Customers
+        Count","category":"metric","updated":"2020-06-29 10:01:14","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}}]}}'
+    http_version:
+  recorded_at: Mon, 29 Jun 2020 08:14:46 GMT
+- request:
+    method: get
+    uri: https://staging2-lcm-prod.intgdc.com/gdc/md/ifuwvwqgya0rw67u3mx01x8g2jnmatyg/objects/query?category=metric&limit=50&offset=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.12/x86_64-darwin19/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":VvyoM3RL1a39zR6WiU6kRA:d9tqtAG4Y0pbr6bSXByVMQ"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-prod.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 29 Jun 2020 08:14:47 GMT
+      Server:
+      - GoodData WebApp
+      Keep-Alive:
+      - timeout=5, max=100
+      X-Gdc-Log-Header:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      X-Gdc-Request-Time:
+      - '27'
+      X-Gdc-Request:
+      - ":VvyoM3RL1a39zR6WiU6kRA:d9tqtAG4Y0pbr6bSXByVMQ:U7lXzekvssbLm8e9"
+      Vary:
+      - Accept-Encoding,origin,X-GDC-VERSION
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"objects":{"paging":{"count":2,"offset":0},"items":[{"metric":{"content":{"format":"#,##0","tree":{"content":[{"content":[{"value":"MAX","content":[{"value":"/gdc/md/ifuwvwqgya0rw67u3mx01x8g2jnmatyg/obj/319","position":{"column":25,"line":1},"type":"fact
+        object"}],"position":{"column":21,"line":1},"type":"function"}],"position":{"column":21,"line":1},"type":"expression"}],"position":{"column":14,"line":1},"type":"metric"},"expression":"SELECT
+        MAX([/gdc/md/ifuwvwqgya0rw67u3mx01x8g2jnmatyg/obj/319])"},"links":{"explain2":"/gdc/md/ifuwvwqgya0rw67u3mx01x8g2jnmatyg/obj/354/explain2"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/ifuwvwqgya0rw67u3mx01x8g2jnmatyg/obj/354","tags":"metric","created":"2020-06-29
+        10:10:23","identifier":"metric.max.claim.amount","deprecated":"0","summary":"","isProduction":1,"title":"Max
+        Claim Amount","category":"metric","updated":"2020-06-29 10:00:48","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}},{"metric":{"content":{"format":"#,##0","tree":{"content":[{"content":[{"value":"COUNT","content":[{"value":"/gdc/md/ifuwvwqgya0rw67u3mx01x8g2jnmatyg/obj/290","position":{"column":27,"line":1},"type":"attribute
+        object"}],"position":{"column":21,"line":1},"type":"function"}],"position":{"column":21,"line":1},"type":"expression"}],"position":{"column":14,"line":1},"type":"metric"},"expression":"SELECT
+        COUNT([/gdc/md/ifuwvwqgya0rw67u3mx01x8g2jnmatyg/obj/290])"},"links":{"explain2":"/gdc/md/ifuwvwqgya0rw67u3mx01x8g2jnmatyg/obj/355/explain2"},"meta":{"author":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa","uri":"/gdc/md/ifuwvwqgya0rw67u3mx01x8g2jnmatyg/obj/355","tags":"","created":"2020-06-29
+        10:10:23","identifier":"metric.customers.count","deprecated":"0","summary":"","isProduction":1,"title":"Customers
+        Count","category":"metric","updated":"2020-06-29 10:01:14","contributor":"/gdc/account/profile/5ad80b895edcc438e5a4418e222733fa"}}}]}}'
+    http_version:
+  recorded_at: Mon, 29 Jun 2020 08:14:47 GMT
+recorded_with: VCR 5.0.0

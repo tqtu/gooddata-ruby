@@ -55,7 +55,7 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: '{"objects":{"paging":{"count":0,"offset":0},"items":[]}}'
-    http_version: null
+    http_version:
   recorded_at: Thu, 07 May 2020 13:38:50 GMT
 - request:
     method: get
@@ -112,7 +112,7 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: '{"objects":{"paging":{"count":0,"offset":0},"items":[]}}'
-    http_version: null
+    http_version:
   recorded_at: Thu, 07 May 2020 13:38:51 GMT
 - request:
     method: get
@@ -169,6 +169,177 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: '{"objects":{"paging":{"count":0,"offset":0},"items":[]}}'
-    http_version: null
+    http_version:
   recorded_at: Thu, 07 May 2020 13:38:52 GMT
-recorded_with: VCR 5.1.0
+- request:
+    method: get
+    uri: https://staging2-lcm-prod.intgdc.com/gdc/md/wnuase472p29kuq16qsi4xmj01oo6n3u/objects/query?category=prompt&limit=50&offset=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.12/x86_64-darwin19/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":VvyoM3RL1a39zR6WiU6kRA:cuz8mTwB--zjn3pNAgQa4w"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-prod.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 29 Jun 2020 08:49:32 GMT
+      Server:
+      - GoodData WebApp
+      Keep-Alive:
+      - timeout=5, max=100
+      X-Gdc-Log-Header:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Gdc-Request-Time:
+      - '21'
+      X-Gdc-Request:
+      - ":VvyoM3RL1a39zR6WiU6kRA:cuz8mTwB--zjn3pNAgQa4w:FciBidi3reJKTL3o"
+      Vary:
+      - origin,X-GDC-VERSION
+      Transfer-Encoding:
+      - chunked
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"objects":{"paging":{"count":0,"offset":0},"items":[]}}'
+    http_version:
+  recorded_at: Mon, 29 Jun 2020 08:49:32 GMT
+- request:
+    method: get
+    uri: https://staging2-lcm-prod.intgdc.com/gdc/md/jqz6r113xvd6pd4tn6omllqg5i48rpov/objects/query?category=prompt&limit=50&offset=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.12/x86_64-darwin19/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":VvyoM3RL1a39zR6WiU6kRA:kGmBujrsQMGjBQqXUJKKQw"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-prod.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 29 Jun 2020 08:49:33 GMT
+      Server:
+      - GoodData WebApp
+      Keep-Alive:
+      - timeout=5, max=100
+      X-Gdc-Log-Header:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Gdc-Request-Time:
+      - '29'
+      X-Gdc-Request:
+      - ":VvyoM3RL1a39zR6WiU6kRA:kGmBujrsQMGjBQqXUJKKQw:uClROYyQ5dA1hjaM"
+      Vary:
+      - origin,X-GDC-VERSION
+      Transfer-Encoding:
+      - chunked
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"objects":{"paging":{"count":0,"offset":0},"items":[]}}'
+    http_version:
+  recorded_at: Mon, 29 Jun 2020 08:49:33 GMT
+- request:
+    method: get
+    uri: https://staging2-lcm-prod.intgdc.com/gdc/md/t5wfemsvs42x6xon2orjhkf0uuwfqr34/objects/query?category=prompt&limit=50&offset=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.12/x86_64-darwin19/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":VvyoM3RL1a39zR6WiU6kRA:dKKrUKtXmWzcsXyQVWwW-g"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-prod.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 29 Jun 2020 08:49:34 GMT
+      Server:
+      - GoodData WebApp
+      Keep-Alive:
+      - timeout=5, max=100
+      X-Gdc-Log-Header:
+      - ''
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Content-Type:
+      - application/json;charset=UTF-8
+      X-Gdc-Request-Time:
+      - '19'
+      X-Gdc-Request:
+      - ":VvyoM3RL1a39zR6WiU6kRA:dKKrUKtXmWzcsXyQVWwW-g:QxKvXAYkHDj1pl0b"
+      Vary:
+      - origin,X-GDC-VERSION
+      Transfer-Encoding:
+      - chunked
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"objects":{"paging":{"count":0,"offset":0},"items":[]}}'
+    http_version:
+  recorded_at: Mon, 29 Jun 2020 08:49:34 GMT
+recorded_with: VCR 5.0.0
