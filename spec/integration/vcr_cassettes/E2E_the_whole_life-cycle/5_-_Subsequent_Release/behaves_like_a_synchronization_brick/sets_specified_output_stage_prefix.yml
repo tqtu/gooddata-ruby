@@ -53,7 +53,7 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: '{"outputStage":{"links":{"self":"/gdc/dataload/projects/v8pvoj7ccszm2o1tmsv59xuogm0mbkga/outputStage","outputStageDiff":"/gdc/dataload/projects/v8pvoj7ccszm2o1tmsv59xuogm0mbkga/outputStage/sqlDiff"}}}'
-    http_version: null
+    http_version:
   recorded_at: Thu, 07 May 2020 13:46:38 GMT
 - request:
     method: get
@@ -108,6 +108,116 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: '{"outputStage":{"links":{"self":"/gdc/dataload/projects/stp6jv2id7msbitjkk40jfm7720dw1gf/outputStage","outputStageDiff":"/gdc/dataload/projects/stp6jv2id7msbitjkk40jfm7720dw1gf/outputStage/sqlDiff"}}}'
-    http_version: null
+    http_version:
   recorded_at: Thu, 07 May 2020 13:46:39 GMT
-recorded_with: VCR 5.1.0
+- request:
+    method: get
+    uri: https://staging2-lcm-prod.intgdc.com/gdc/dataload/projects/nqiq1xggf5he67wyc3qyzk8v7hrkhoae/outputStage
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.12/x86_64-darwin19/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":VvyoM3RL1a39zR6WiU6kRA:qizlAsTnFS9nNh1t7otwQw"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-prod.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Gdc-Log-Header:
+      - ''
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Mon, 29 Jun 2020 08:57:16 GMT
+      Server:
+      - GoodData WebApp
+      X-Gdc-Request-Time:
+      - '178'
+      X-Gdc-Request:
+      - ":VvyoM3RL1a39zR6WiU6kRA:qizlAsTnFS9nNh1t7otwQw:ppPzTUpotODySL2K"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Vary:
+      - origin,X-GDC-VERSION
+      Transfer-Encoding:
+      - chunked
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"outputStage":{"links":{"self":"/gdc/dataload/projects/nqiq1xggf5he67wyc3qyzk8v7hrkhoae/outputStage","outputStageDiff":"/gdc/dataload/projects/nqiq1xggf5he67wyc3qyzk8v7hrkhoae/outputStage/sqlDiff"}}}'
+    http_version:
+  recorded_at: Mon, 29 Jun 2020 08:57:17 GMT
+- request:
+    method: get
+    uri: https://staging2-lcm-prod.intgdc.com/gdc/dataload/projects/qpdncf72i3d05fuzkipdwmud9swrycs0/outputStage
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json, application/zip
+      User-Agent:
+      - gooddata-gem/2.1.12/x86_64-darwin19/2.3.8
+      Content-Type:
+      - application/json
+      X-Gdc-Authtt:
+      - "<X_GDC_AUTHTT>"
+      X-Gdc-Request:
+      - ":VvyoM3RL1a39zR6WiU6kRA:1H3OU6-L5mH59sZQXCwK8w"
+      Stats-On:
+      - ''
+      X-Gdc-Version:
+      - '2'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - staging2-lcm-prod.intgdc.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Gdc-Log-Header:
+      - ''
+      Content-Type:
+      - application/json;charset=UTF-8
+      Date:
+      - Mon, 29 Jun 2020 08:57:18 GMT
+      Server:
+      - GoodData WebApp
+      X-Gdc-Request-Time:
+      - '153'
+      X-Gdc-Request:
+      - ":VvyoM3RL1a39zR6WiU6kRA:1H3OU6-L5mH59sZQXCwK8w:nMDA4zyS1OeNYv3Z"
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Vary:
+      - origin,X-GDC-VERSION
+      Transfer-Encoding:
+      - chunked
+      Strict-Transport-Security:
+      - max-age=10886400; includeSubDomains; preload;
+    body:
+      encoding: ASCII-8BIT
+      string: '{"outputStage":{"links":{"self":"/gdc/dataload/projects/qpdncf72i3d05fuzkipdwmud9swrycs0/outputStage","outputStageDiff":"/gdc/dataload/projects/qpdncf72i3d05fuzkipdwmud9swrycs0/outputStage/sqlDiff"}}}'
+    http_version:
+  recorded_at: Mon, 29 Jun 2020 08:57:18 GMT
+recorded_with: VCR 5.0.0
