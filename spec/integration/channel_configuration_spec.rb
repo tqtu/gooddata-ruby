@@ -25,7 +25,7 @@ describe GoodData::ChannelConfiguration, :vcr, :constraint => 'slow' do
     end
   end
 
-  it 'should not create dubplicate channel' do
+  xit 'should not create dubplicate channel' do
     begin
       channel = GoodData::ChannelConfiguration.create(client: @client)
       GoodData::ChannelConfiguration.create(client: @client, title: 'another channel')
@@ -50,7 +50,7 @@ describe GoodData::ChannelConfiguration, :vcr, :constraint => 'slow' do
     end
   end
 
-  it 'should be able to list all channels' do
+  xit 'should be able to list all channels' do
     begin
       expect(GoodData::ChannelConfiguration.all).to eq []
       channel = GoodData::ChannelConfiguration.create(client: @client)

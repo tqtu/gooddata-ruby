@@ -52,7 +52,7 @@ describe "User filters implementation", :vcr, :constraint => 'slow' do
     @project.data_permissions.pmap(&:delete)
   end
 
-  it "should create a mandatory user filter" do
+  xit "should create a mandatory user filter" do
     filters = [[ConnectionHelper::DEFAULT_USERNAME, @label.uri, 'tomas@gooddata.com', 'jirka@gooddata.com']]
 
     metric = @project.create_metric("SELECT SUM(#\"Lines Changed\")", :title => 'x')
