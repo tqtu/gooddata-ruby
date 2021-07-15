@@ -58,17 +58,22 @@ describe "User filters implementation", :vcr, :constraint => 'slow' do
     metric = @project.create_metric("SELECT SUM(#\"Lines Changed\")", :title => 'x')
     # [jirka@gooddata.com | petr@gooddata.com | tomas@gooddata.com]
     # [5.0                | 3.0               | 1.0               ]
-
+    puts "DEBUG tuqt: filters:#{filters}"
     expect(metric.execute).to eq(15)
+    puts "DEBUG tuqt: @project:#{@project}"
+    puts "DEBUG tuqt: @label:#{@label}"
+    puts "DEBUG tuqt: @client:#{@client}"
     @project.add_data_permissions(filters)
     expect(metric.execute).to eq(12)
     r = @project.compute_report(left: [metric], top: [@label.attribute])
+    puts "DEBUG tuqt: test r:#{r}"
     expect(r.include_column?(['tomas@gooddata.com', 7])).to be_truthy
     expect(r.include_column?(['jirka@gooddata.com', 5])).to be_truthy
     expect(r.include_column?(['petr@gooddata.com', 3])).to be_falsy
 
     # should not re-create the same MUF for the same user
     result = @project.add_data_permissions(filters, dry_run: true)
+    puts "DEBUG tuqt: test @result:#{result}"
     expect(result[:created].count).to eq 0
     expect(result[:deleted].count).to eq 0
   end
