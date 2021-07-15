@@ -223,6 +223,7 @@ module GoodData
         if lookups_cache.key?(label.uri)
           [v, lookups_cache[label.uri][v]]
         else
+          puts "DEBUG tuqt: go here v:#{v}"
           [v, label.find_value_uri(v)]
         end
       end]

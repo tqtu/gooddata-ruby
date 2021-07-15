@@ -43,7 +43,9 @@ module GoodData
     # Gets valid elements using /validElements? API
     # @return [Array] Results
     def get_valid_elements(*args)
+      puts "DEBUG tuqt: get_valid_elements:#{args}"
       results, params = valid_elements(*args)
+      puts "DEBUG tuqt: get_valid_elements results:#{results} params:#{params}"
       # TMA-775 - the validElements API can possibly return more matches than requested (usually 1)
       # so we do a preliminary first request to check and then increase the limit if needed
       if results['validElements']['paging']['total'].to_i != params[:limit]

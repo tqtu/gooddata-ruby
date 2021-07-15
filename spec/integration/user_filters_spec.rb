@@ -73,7 +73,7 @@ describe "User filters implementation", :vcr, :constraint => 'slow' do
     expect(result[:deleted].count).to eq 0
   end
 
-  it "should return errors when asked to set a user not in project. Some filters are set up though." do
+  xit "should return errors when asked to set a user not in project. Some filters are set up though." do
     filters = [
       ['nonexistent_user@gooddata.com', @label.uri, "tomas@gooddata.com"],
       [ConnectionHelper::DEFAULT_USERNAME, @label.uri, "tomas@gooddata.com"]
@@ -82,7 +82,7 @@ describe "User filters implementation", :vcr, :constraint => 'slow' do
     expect(@project.data_permissions.count).to eq 2
   end
 
-  it "should pass and set users that are in the projects" do
+  xit "should pass and set users that are in the projects" do
     filters = [
       [ConnectionHelper::DEFAULT_USERNAME, @label.uri, "tomas@gooddata.com"]
     ]
@@ -90,7 +90,7 @@ describe "User filters implementation", :vcr, :constraint => 'slow' do
     expect(@project.data_permissions.count).to eq 1
   end
 
-  it "should pass and set only users that are in the projects if asked" do
+  xit "should pass and set only users that are in the projects if asked" do
     filters = [
       ['nonexistent_user@gooddata.com', @label.uri, 'tomas@gooddata.com'],
       [ConnectionHelper::DEFAULT_USERNAME, @label.uri, 'tomas@gooddata.com']
@@ -101,7 +101,7 @@ describe "User filters implementation", :vcr, :constraint => 'slow' do
     expect(@project.data_permissions.select(&:related_uri).first.pretty_expression).to eq "[Dev] IN ([tomas@gooddata.com])"
   end
 
-  it "should fail when asked to set a value not in the project" do
+  xit "should fail when asked to set a value not in the project" do
     value = '%^&*( nonexistent value'
     filters = [
       [ConnectionHelper::DEFAULT_USERNAME, @label.uri, value, 'tomas@gooddata.com']
@@ -112,7 +112,7 @@ describe "User filters implementation", :vcr, :constraint => 'slow' do
     expect(@project.data_permissions.count).to eq 0
   end
 
-  it 'should fail but return all values if specified' do
+  xit 'should fail but return all values if specified' do
     domain = @client.domain(ConnectionHelper::DEFAULT_DOMAIN)
     u = domain.users.find { |user| user.login != ConnectionHelper::DEFAULT_USERNAME }
     first_value = '%^&*( nonexistent value'
@@ -135,13 +135,13 @@ describe "User filters implementation", :vcr, :constraint => 'slow' do
     expect(@project.data_permissions.count).to eq 0
   end
 
-  it 'should drop the filter when none of filter values is found' do
+  xit 'should drop the filter when none of filter values is found' do
     filters = [[ConnectionHelper::DEFAULT_USERNAME, @label.uri, '%^&*( nonexistent value']]
     @project.add_data_permissions(filters, ignore_missing_values: true)
     expect(@project.data_permissions.count).to eq 0
   end
 
-  it "should add a filter with nonexistent values when asked" do
+  xit "should add a filter with nonexistent values when asked" do
     filters = [[ConnectionHelper::DEFAULT_USERNAME, @label.uri, '%^&*( nonexistent value', 'jirka@gooddata.com']]
     @project.add_data_permissions(filters, ignore_missing_values: true)
 
@@ -149,7 +149,7 @@ describe "User filters implementation", :vcr, :constraint => 'slow' do
     expect(@project.data_permissions.count).to eq 1
   end
 
-  it "should be able to add mandatory filter to a user not in the project if domain is provided" do
+  xit "should be able to add mandatory filter to a user not in the project if domain is provided" do
     domain = @client.domain(ConnectionHelper::DEFAULT_DOMAIN)
     u = domain.users.find { |user| user.login != ConnectionHelper::DEFAULT_USERNAME }
 
@@ -161,7 +161,7 @@ describe "User filters implementation", :vcr, :constraint => 'slow' do
     expect(filters.first.pretty_expression).to eq "[Dev] IN ([tomas@gooddata.com])"
   end
 
-  it "should be able to print data permissions in a human readable form" do
+  xit "should be able to print data permissions in a human readable form" do
     filters = [[ConnectionHelper::DEFAULT_USERNAME, @label.uri, "tomas@gooddata.com"]]
     @project.add_data_permissions(filters)
     perms = @project.data_permissions
@@ -170,7 +170,7 @@ describe "User filters implementation", :vcr, :constraint => 'slow' do
     expect(pretty).to eq [[ConnectionHelper::DEFAULT_USERNAME, "[Dev] IN ([tomas@gooddata.com])"]]
   end
 
-  it 'works with filters from .get_filters' do
+  xit 'works with filters from .get_filters' do
     filters = GoodData::UserFilterBuilder.get_filters(
       File.expand_path('../../data/user_filters.csv', __FILE__),
       :type => :filter,
@@ -182,7 +182,7 @@ describe "User filters implementation", :vcr, :constraint => 'slow' do
     expect(pretty).to eq('[Dev] IN ([tomas@gooddata.com])')
   end
 
-  it "sets up mandatory users based on the state given as an end state by default." do
+  xit "sets up mandatory users based on the state given as an end state by default." do
     # first let's prepare some user filters
     user_with_already_set_up_filter = @project.get_user(ConnectionHelper::DEFAULT_USERNAME)
 
@@ -205,7 +205,7 @@ describe "User filters implementation", :vcr, :constraint => 'slow' do
       .to eq [[another_user.login, "[Dev] IN ([tomas@gooddata.com])"]]
   end
 
-  it "should set up false if all values are nonexistent" do
+  xit "should set up false if all values are nonexistent" do
     metric = GoodData::Fact.find_first_by_title('Lines Changed', client: @client, project: @project).create_metric
 
     filters = [[ConnectionHelper::DEFAULT_USERNAME, @label.uri, "NONEXISTENT1", "NONEXISTENT2", "NONEXISTENT3"]]
@@ -215,7 +215,7 @@ describe "User filters implementation", :vcr, :constraint => 'slow' do
     expect(metric.execute).to eq nil
   end
 
-  it "you can switch the updates. Whatever is not mentioned will not be touched" do
+  xit "you can switch the updates. Whatever is not mentioned will not be touched" do
     # first let's prepare some user filters
     user_with_already_set_up_filter = @project.get_user(ConnectionHelper::DEFAULT_USERNAME)
 
@@ -238,7 +238,7 @@ describe "User filters implementation", :vcr, :constraint => 'slow' do
       .to include([ConnectionHelper::DEFAULT_USERNAME, "[Dev] IN ([tomas@gooddata.com])"], [another_user.login, "[Dev] IN ([tomas@gooddata.com])"])
   end
 
-  it "should be able to update the filter value", broken: true do
+  xit "should be able to update the filter value", broken: true do
     pending 'FIXME: We cannot swap filters yet'
 
     filters = [[ConnectionHelper::DEFAULT_USERNAME, @label.uri, "tomas@gooddata.com", "jirka@gooddata.com"]]
@@ -249,7 +249,7 @@ describe "User filters implementation", :vcr, :constraint => 'slow' do
     expect(perm.reload!.pretty_expression).to eq '[Dev] IN ([tomas@gooddata.com, jirka@gooddata.com])'
   end
 
-  it 'should not create any superfluous filters if things go well' do
+  xit 'should not create any superfluous filters if things go well' do
     filters = [[ConnectionHelper::DEFAULT_USERNAME, @label.uri, "tomas@gooddata.com"]]
     @project.add_data_permissions(filters)
 
@@ -273,7 +273,7 @@ describe "User filters implementation", :vcr, :constraint => 'slow' do
       @computation_user.delete if @computation_user
     end
 
-    it 'should create a mandatory user filter with double filters' do
+    xit 'should create a mandatory user filter with double filters' do
       repo_label = @project.labels('some_attr_label_id')
       metric = @project.create_metric("SELECT SUM(#\"Lines Changed\")")
 
@@ -326,7 +326,7 @@ describe "User filters implementation", :vcr, :constraint => 'slow' do
     end
   end
 
-  it 'can reach the error reported in filtermaqlization' do
+  xit 'can reach the error reported in filtermaqlization' do
     error = GoodData::FilterMaqlizationError
     msg = 'its broken'
     begin
