@@ -2,6 +2,8 @@
 ## 2.1.20
  - BUGFIX: MSF-21241 fix build docker container fail with gpg
  - BUGFIX: MSF-21241 fix deploy ruby brick with bundle dependency
+ - FEATURE: MSF-20653 Update message error blob storage 
+ - FEATURE: MSF-20653 Support Blob Storage input source
  - Automated base image update (BUILD pipeline from gdc-docker-images, fcb7257)
  - MSF-20737: Update sso provider to vcr of updates_properties_of_a_profile test case
  - MSF-20737: Update another SSO provider instead of deprecated saleforce.com
