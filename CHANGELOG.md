@@ -1,4 +1,12 @@
 # GoodData Ruby SDK Changelog
+## 2.1.20
+ - BUGFIX: MSF-21241 fix build docker container fail with gpg
+ - BUGFIX: MSF-21241 fix deploy ruby brick with bundle dependency
+ - Automated base image update (BUILD pipeline from gdc-docker-images, fcb7257)
+ - MSF-20737: Update sso provider to vcr of updates_properties_of_a_profile test case
+ - MSF-20737: Update another SSO provider instead of deprecated saleforce.com
+ - Revert "FEATURE: MSF-20118 Support PostgreSQL test integration"
+
 ## 2.1.19
  - BUGFIX: MSF-20827 Fix gem-smoke-test failed when release ruby SDK 
  - BUGFIX: MSF-20826 Failure update license file when release ruby SDK 
