@@ -16,7 +16,9 @@ module GoodData
     # @param [String] value value of an label you are looking for
     # @return [String]
     def find_value_uri(value)
+      puts "DEBUG tuqt: find_value_uri value:#{value}"
       results = get_valid_elements(filter: value)
+      puts "DEBUG tuqt: find_value_uri results:#{results}"
       items = results['validElements']['items']
       if items.empty?
         fail(AttributeElementNotFound, value)

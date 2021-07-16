@@ -211,19 +211,24 @@ module GoodData
     # @param labels_cache e.g. { 'label_uri': label_object }
     # @param lookups_cache e.g. { 'label_uri': { "jirka@gooddata.com": 'value_uri' }}
     def self.create_expression(filter, labels_cache, lookups_cache, attr_cache, options = {})
+      puts "DEBUG tuqt: go here filter:#{filter} labels_cache:#{labels_cache} lookups_cache:#{lookups_cache} attr_cache:#{attr_cache} options:#{options}"
       values = filter[:values]
       # Do not create MUF for label when all its values is NULL (https://jira.intgdc.com/browse/TMA-1361)
       non_null_values = values.select { |value| !value.nil? && value.downcase != 'null' }
+      puts "DEBUG tuqt: go here non_null_values:#{non_null_values}"
       return ['TRUE', []] if non_null_values.empty?
 
       label = labels_cache[filter[:label]]
+      puts "DEBUG tuqt: go here label:#{label}"
       errors = []
-
+      puts "DEBUG tuqt: go here v:#{values}"
       element_uris_by_values = Hash[values.map do |v|
+        puts "DEBUG tuqt: go here v1:#{v}"
         if lookups_cache.key?(label.uri)
+          puts "DEBUG tuqt: go here v3:#{v}"
           [v, lookups_cache[label.uri][v]]
         else
-          puts "DEBUG tuqt: go here v:#{v}"
+          puts "DEBUG tuqt: go here v4:#{v}"
           [v, label.find_value_uri(v)]
         end
       end]
